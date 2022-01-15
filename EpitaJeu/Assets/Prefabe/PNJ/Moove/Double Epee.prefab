@@ -15108,7 +15108,7 @@ MonoBehaviour:
   image: {fileID: 21300000, guid: 2f1eaeeaad36ee5469eff7ff158f37ba, type: 3}
   pseudo: Dimi
   isEnter: 0
-  stay: 1
+  stay: 0
   audio: {fileID: 8275011087510068594}
 --- !u!136 &8275011087510068599
 CapsuleCollider:
@@ -15138,7 +15138,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 112
+  m_Constraints: 126
   m_CollisionDetection: 0
 --- !u!114 &8275011087510068597
 MonoBehaviour:

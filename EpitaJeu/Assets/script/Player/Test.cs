@@ -9,10 +9,15 @@ public class Test : MonoBehaviour
     private void Update()
     {
        
-        Ray ray = new Ray(transform.position, transform.TransformDirection(Vector3.forward)   );
+        Ray ray = new Ray(transform.position, transform.TransformDirection(Vector3.forward));
+        Ray ray2 = new Ray(transform.position, transform.TransformDirection(new Vector3(0.05f,0,0.95f)));
+        Ray ray3 = new Ray(transform.position, transform.TransformDirection(new Vector3(-0.05f, 0, 1.05f)));
         RaycastHit hit;
-        Debug.DrawRay(transform.position, transform.TransformDirection(Vector3.forward) * 3, Color.yellow);
-        if (Physics.Raycast(ray, out hit,3))
+        
+        Debug.DrawRay(transform.position, transform.TransformDirection(new Vector3(0.05f, 0, 0.95f)) * 3, Color.yellow);
+        Debug.DrawRay(transform.position, transform.TransformDirection(new Vector3(-0.05f, 0, 1.05f)) * 3, Color.yellow);
+        Debug.DrawRay(transform.position, transform.TransformDirection(new Vector3(-0, 0, 1f)) * 3, Color.yellow);
+        if (Physics.Raycast(ray, out hit,3)|| Physics.Raycast(ray2, out hit, 3) || Physics.Raycast(ray3, out hit, 3))
         {
             
             if (hit.transform.gameObject.tag == "Objet")
@@ -36,7 +41,7 @@ public class Test : MonoBehaviour
                 {
                     po.GetComponent<TableauQuete>().Clique();
                 }
-            }
+            }            
             else if (hit.transform.gameObject.tag == "PNJ")
             {
                 po = hit.transform.gameObject;
@@ -82,5 +87,6 @@ public class Test : MonoBehaviour
         }
 
     }
+
    
 }

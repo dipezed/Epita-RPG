@@ -118,9 +118,9 @@ public class Sauvegarde : MonoBehaviour
     public void GetOther()
     {
         player.sousParent.transform.position = new Vector3(
-            PlayerPrefs.GetFloat("x", 0),
-            PlayerPrefs.GetFloat("y", 0),
-            PlayerPrefs.GetFloat("z", 0));
+            PlayerPrefs.GetFloat("x", 363),
+            PlayerPrefs.GetFloat("y", 1),
+            PlayerPrefs.GetFloat("z", 45));
     }
     
 }
