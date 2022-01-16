@@ -15,11 +15,11 @@ C:/Users/Dimit/Documents/GitHub/Epita-RPG/EpitaJeu
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-62210
+50501
 Successfully changed project path to: C:/Users/Dimit/Documents/GitHub/Epita-RPG/EpitaJeu
 C:/Users/Dimit/Documents/GitHub/Epita-RPG/EpitaJeu
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 128.60 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 127.15 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.21f1 (f2d5d3c59f8c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.21f1/Editor/Data/Resources/UnitySubsystems
@@ -35,592 +35,91 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56888
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56508
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001684 seconds.
+Registered in 0.001608 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 128.76 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 130.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.066 seconds
+- Completed reload, in  1.072 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1066ms)
-		BeginReloadAssembly (52ms)
+	ReloadAssembly (1072ms)
+		BeginReloadAssembly (50ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (434ms)
-			LoadAssemblies (50ms)
+		EndReloadAssembly (437ms)
+			LoadAssemblies (49ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (132ms)
+			SetupTypeCache (131ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (239ms)
+			SetupLoadedEditorAssemblies (244ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (129ms)
+				RefreshPlugins (131ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (79ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
+				ProcessInitializeOnLoadAttributes (82ms)
+				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004573 seconds.
+Registered in 0.004600 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Dimit\Documents\GitHub\Epita-RPG\EpitaJeu\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Dimit\Documents\GitHub\Epita-RPG\EpitaJeu\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 134.55 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 136.43 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.126 seconds
+- Completed reload, in  1.133 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1127ms)
-		BeginReloadAssembly (131ms)
+	ReloadAssembly (1133ms)
+		BeginReloadAssembly (135ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (944ms)
+			CreateAndSetChildDomain (18ms)
+		EndReloadAssembly (945ms)
 			LoadAssemblies (80ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (305ms)
+			SetupTypeCache (307ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (427ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (430ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (135ms)
+				RefreshPlugins (137ms)
 				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (198ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4474 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 206.9 MB.
-System memory in use after: 207.1 MB.
-
-Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 4951.
-Total: 3.225100 ms (FindLiveObjects: 0.350800 ms CreateObjectMapping: 0.110200 ms MarkObjects: 2.671000 ms  DeleteObjects: 0.092000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  path: Assets/Prefabe/PNJ/Moove/Soldat ville foret.prefab
-  artifactKey: Guid(ffa5a750f6a3e23459ceb145c69f3109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabe/PNJ/Moove/Soldat ville foret.prefab using Guid(ffa5a750f6a3e23459ceb145c69f3109) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3ce301e2235da9068720dc649971107') in 0.230848 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Prefabe/PNJ/Moove/Mage.prefab
-  artifactKey: Guid(b55246467ad488b4e8b5235408ed1cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabe/PNJ/Moove/Mage.prefab using Guid(b55246467ad488b4e8b5235408ed1cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da31cf049f4ac6ddb035dbe62f1f76a') in 0.089812 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Prefabe/PNJ/Moove/Villageois (5).prefab
-  artifactKey: Guid(59d11b1e748f8874fb22b121b9d817fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabe/PNJ/Moove/Villageois (5).prefab using Guid(59d11b1e748f8874fb22b121b9d817fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25f1369ebca5eaf1373dbde240b97481') in 0.046877 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000196 seconds.
-  path: Assets/Prefabe/PNJ/Moove/Epee.prefab
-  artifactKey: Guid(0150882251e10b74ba9d0bf121176ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabe/PNJ/Moove/Epee.prefab using Guid(0150882251e10b74ba9d0bf121176ee0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f90fccc7f24a249fae5626a84856c54') in 0.050224 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Prefabe/PNJ/Moove/Tank.prefab
-  artifactKey: Guid(bbc13e4cb49e7d54d8b050ffbcd5e0ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabe/PNJ/Moove/Tank.prefab using Guid(bbc13e4cb49e7d54d8b050ffbcd5e0ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '501514933e0e89305712702e345adb19') in 0.034077 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Prefabe/PNJ/Moove/Double Epee.prefab
-  artifactKey: Guid(961e93ae3c6cb724786398c0a2d2118b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabe/PNJ/Moove/Double Epee.prefab using Guid(961e93ae3c6cb724786398c0a2d2118b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42c4961fb318d0a7cefd78b66a88f7f0') in 0.032176 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/Prefabe/PNJ/Moove/Archer.prefab
-  artifactKey: Guid(6016ddcc878451b4e9fb9889e7798526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabe/PNJ/Moove/Archer.prefab using Guid(6016ddcc878451b4e9fb9889e7798526) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02258aa5dc20208dba6d8f7f7b83cd88') in 0.028944 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 89.851303 seconds.
-  path: Assets/Import/Texture/Textures/Grass/NewLayer 2.terrainlayer
-  artifactKey: Guid(ef312161dacd304439eba03370dbdfaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Textures/Grass/NewLayer 2.terrainlayer using Guid(ef312161dacd304439eba03370dbdfaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51819bfa91608fcf8a297044e8068e74') in 0.017384 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 29.271735 seconds.
-  path: Assets/Import/Blink
-  artifactKey: Guid(164b5b60040297f468dcab369a77e2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Blink using Guid(164b5b60040297f468dcab369a77e2fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1bce8530310b44b25ba21e64c36c6d') in 0.005771 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.910160 seconds.
-  path: Assets/Import/Chateau/PolygonKnights/Demo
-  artifactKey: Guid(8bd1477b0669cbe40958d7d0628404a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Chateau/PolygonKnights/Demo using Guid(8bd1477b0669cbe40958d7d0628404a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c691ba44ea9dada7b02aa632b75e248a') in 0.005094 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.378948 seconds.
-  path: Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wall_Gate_01_Lite_Convex.asset
-  artifactKey: Guid(bcc043e1631a8414aae973eb8495757f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wall_Gate_01_Lite_Convex.asset using Guid(bcc043e1631a8414aae973eb8495757f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db4fe1506b344aa74b04cc3e7d5c935d') in 0.032737 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wood_Battlement_03_Convex.asset
-  artifactKey: Guid(b5d0f819dbb2c034baff78dd5e3be293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wood_Battlement_03_Convex.asset using Guid(b5d0f819dbb2c034baff78dd5e3be293) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2931f6b6b976626ef78659e0823758f1') in 0.009773 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wood_Battlement_03_Snow.fbx
-  artifactKey: Guid(bdbe413e4790213499213e4f26a8baef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wood_Battlement_03_Snow.fbx using Guid(bdbe413e4790213499213e4f26a8baef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51c5abf0d980e4e56780e83079e10294') in 0.072649 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wood_Battlement_04_Convex.asset
-  artifactKey: Guid(a374860c3a217cd4abd8b82d67e9b3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wood_Battlement_04_Convex.asset using Guid(a374860c3a217cd4abd8b82d67e9b3f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed8e6152da41cd24304ad17dfe02b770') in 0.015628 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000115 seconds.
-  path: Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wood_Battlement_02.fbx
-  artifactKey: Guid(112fb28291a381b46a6a3ba2dd963d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wood_Battlement_02.fbx using Guid(112fb28291a381b46a6a3ba2dd963d96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afe6466eb312547342ff291b1713ffd5') in 0.038117 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000173 seconds.
-  path: Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wood_Battlement_01_Convex.asset
-  artifactKey: Guid(bf58ec9a248eff140ab81106f7539900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wood_Battlement_01_Convex.asset using Guid(bf58ec9a248eff140ab81106f7539900) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a434c1f3764e32bb266028c8b51cbc') in 0.010154 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000178 seconds.
-  path: Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wood_Battlement_01_Snow.fbx
-  artifactKey: Guid(02f5295ae270aa84780121af61c8dc6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wood_Battlement_01_Snow.fbx using Guid(02f5295ae270aa84780121af61c8dc6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16f73b769a4f3bcd8db367c9d135b3d') in 0.018823 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wood_Battlement_02_Snow.fbx
-  artifactKey: Guid(7fea654e49e114841b43c1eccdc9eb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wood_Battlement_02_Snow.fbx using Guid(7fea654e49e114841b43c1eccdc9eb95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56f5dcd6dfc68022324c7ee3d17ed6bc') in 0.019290 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wall_Gate_01_Snow_Convex.asset
-  artifactKey: Guid(50f70fd49a67aa14191f93a0c174d227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wall_Gate_01_Snow_Convex.asset using Guid(50f70fd49a67aa14191f93a0c174d227) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97c71acba253f442ceda670913d001e0') in 0.008428 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000128 seconds.
-  path: Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wood_Battlement_01.fbx
-  artifactKey: Guid(eb5c7e18b9ab42340b7aa7340a1dcc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wood_Battlement_01.fbx using Guid(eb5c7e18b9ab42340b7aa7340a1dcc81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8df08322e3ac26ecced57a488f9ec4fb') in 0.017270 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000181 seconds.
-  path: Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wood_Battlement_03.fbx
-  artifactKey: Guid(0e0bbbd46481cc847a307dfc2734fc08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wood_Battlement_03.fbx using Guid(0e0bbbd46481cc847a307dfc2734fc08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e4ddb016a520050efe1a4421f4ae3b4') in 0.017777 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wood_Battlement_01_Snow_Convex.asset
-  artifactKey: Guid(43ff4c3f0cb41a940ab191c303cb1a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wood_Battlement_01_Snow_Convex.asset using Guid(43ff4c3f0cb41a940ab191c303cb1a32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1170da07a2223fa1503a69907587c0a0') in 0.012395 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wood_Battlement_04.fbx
-  artifactKey: Guid(8923d1f93b0717c4695cc0df14febd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wood_Battlement_04.fbx using Guid(8923d1f93b0717c4695cc0df14febd1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7426ff8e18618aa097761d5fef146d9') in 0.019483 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wood_Battlement_02_Convex.asset
-  artifactKey: Guid(fd9aa8b4c9049494da3314d32392de76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wood_Battlement_02_Convex.asset using Guid(fd9aa8b4c9049494da3314d32392de76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a35e0e9d91e3e46e83cbd1ca1768d6b5') in 0.009077 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wall_Gate_01_Snow.fbx
-  artifactKey: Guid(9d83f5800933bfc489906d234261d5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wall_Gate_01_Snow.fbx using Guid(9d83f5800933bfc489906d234261d5e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61855a3361507b298837138c2232472b') in 0.021291 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wood_Battlement_03_Snow_Convex.asset
-  artifactKey: Guid(6be143bfd4eeaf64082eeb9f58d7ea5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wood_Battlement_03_Snow_Convex.asset using Guid(6be143bfd4eeaf64082eeb9f58d7ea5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ace64293eb3f59b2ee452432ae79f962') in 0.009639 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000108 seconds.
-  path: Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wood_Battlement_02_Snow_Convex.asset
-  artifactKey: Guid(cc11c38649ccb0348aeb09cfedabc908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wood_Battlement_02_Snow_Convex.asset using Guid(cc11c38649ccb0348aeb09cfedabc908) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bade936355e22d401d8457a5224da11f') in 0.008942 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.917105 seconds.
-  path: Assets/Import/Chateau/PolygonKnights/Models/Materials
-  artifactKey: Guid(9f3e5f914a4eaaa43a3bd7997f35cffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Chateau/PolygonKnights/Models/Materials using Guid(9f3e5f914a4eaaa43a3bd7997f35cffc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c6f1c74afa53037e56b44d9f1f8b4c9') in 0.004598 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.100913 seconds.
-  path: Assets/Import/Chateau/PolygonKnights/Models/Materials/Texture_01.mat
-  artifactKey: Guid(4f4c4104bd44bce4c853bd518b424687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Chateau/PolygonKnights/Models/Materials/Texture_01.mat using Guid(4f4c4104bd44bce4c853bd518b424687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9c2d0cf2ef77a056eadff95a350fb28') in 0.034593 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 466.636000 seconds.
-  path: Assets/Import/village/Prefabs/Props/Ax.prefab
-  artifactKey: Guid(48972c57656c02e4eb75e06ae45f2c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/village/Prefabs/Props/Ax.prefab using Guid(48972c57656c02e4eb75e06ae45f2c78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acabcbd0d293a987f38e579a3951de81') in 0.031380 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000130 seconds.
-  path: Assets/Import/village/Prefabs/Props/Board_02.prefab
-  artifactKey: Guid(2914386da78ce2a489fa579750a67040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/village/Prefabs/Props/Board_02.prefab using Guid(2914386da78ce2a489fa579750a67040) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f51f6a5ce22ff7ff0a4e311e1f744152') in 0.014750 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000125 seconds.
-  path: Assets/Import/village/Prefabs/Props/Bottle_01.prefab
-  artifactKey: Guid(bf533362754818647b8d0cd296948f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/village/Prefabs/Props/Bottle_01.prefab using Guid(bf533362754818647b8d0cd296948f9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '135d0b1f2dec399cfdc147bf886b5169') in 0.010347 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Import/village/Prefabs/Props/Board_05.prefab
-  artifactKey: Guid(0404594e1ce42cb459d28e5aca417dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/village/Prefabs/Props/Board_05.prefab using Guid(0404594e1ce42cb459d28e5aca417dfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96cdaef787c4f35e07ed5bd029a25524') in 0.013907 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/Import/village/Prefabs/Props/Book_03.prefab
-  artifactKey: Guid(9d17fe5a3d7626f40a52a84c16b49ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/village/Prefabs/Props/Book_03.prefab using Guid(9d17fe5a3d7626f40a52a84c16b49ea5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e152ecad5f24175b6e311dfe182c553b') in 0.010874 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Import/village/Prefabs/Props/Board_07.prefab
-  artifactKey: Guid(31c083c4b5a10884293677af7a5dca83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/village/Prefabs/Props/Board_07.prefab using Guid(31c083c4b5a10884293677af7a5dca83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab3a74206ba71e168609b01ba1bdb058') in 0.017454 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000145 seconds.
-  path: Assets/Import/village/Prefabs/Props/Board_06.prefab
-  artifactKey: Guid(7aaf8194c18b1934096669eefe50e8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/village/Prefabs/Props/Board_06.prefab using Guid(7aaf8194c18b1934096669eefe50e8aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd82468e7ef27d4d3f02240d26d0349b') in 0.033581 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Import/village/Prefabs/Props/Board_08.prefab
-  artifactKey: Guid(9a61348dd75d7d94f8064d5b84bf3344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/village/Prefabs/Props/Board_08.prefab using Guid(9a61348dd75d7d94f8064d5b84bf3344) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7736e3e19c04c39170aed1b979566e30') in 0.041482 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/Import/village/Prefabs/Props/Bench_02.prefab
-  artifactKey: Guid(5ab1a47096fc60f45b91d601fe28d406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/village/Prefabs/Props/Bench_02.prefab using Guid(5ab1a47096fc60f45b91d601fe28d406) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd64f3ffe78501fa6930674a1b2eeb8c') in 0.032439 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Import/village/Prefabs/Props/Boat.prefab
-  artifactKey: Guid(c2c7293299d7c2048a03075cdc3e9744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/village/Prefabs/Props/Boat.prefab using Guid(c2c7293299d7c2048a03075cdc3e9744) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd992512afc4dde78d9439db870d01810') in 0.032556 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Import/village/Prefabs/Props/Board_01.prefab
-  artifactKey: Guid(4455d4f6bf001f84895f6e6bdde71246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/village/Prefabs/Props/Board_01.prefab using Guid(4455d4f6bf001f84895f6e6bdde71246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65385b0e21bd95bb378632101084095f') in 0.032439 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Import/village/Prefabs/Props/Barrel_01.prefab
-  artifactKey: Guid(0eb2c34680cb33148980e8a1a2a1ea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/village/Prefabs/Props/Barrel_01.prefab using Guid(0eb2c34680cb33148980e8a1a2a1ea5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1442001204f1a51092cfd1ee20887989') in 0.031789 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000168 seconds.
-  path: Assets/Import/village/Prefabs/Props/Board_03.prefab
-  artifactKey: Guid(2c3b3c863122cf645bb0c6b34dae231a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/village/Prefabs/Props/Board_03.prefab using Guid(2c3b3c863122cf645bb0c6b34dae231a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a717adab8cc5d5533023dbad47021dbf') in 0.032588 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/Import/village/Prefabs/Props/Barrel_02.prefab
-  artifactKey: Guid(d6d6bd6bdffb7b6449ae116800b59ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/village/Prefabs/Props/Barrel_02.prefab using Guid(d6d6bd6bdffb7b6449ae116800b59ba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29c9f149e462d0afd369861483a9c2f7') in 0.015852 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/Import/village/Prefabs/Props/Board_04.prefab
-  artifactKey: Guid(9f6a7564935a6c34e91dcd3f0cac3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/village/Prefabs/Props/Board_04.prefab using Guid(9f6a7564935a6c34e91dcd3f0cac3bdf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '030e6f3429ef604645280d86b9b5dbd8') in 0.013734 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Import/village/Prefabs/Props/Bottle_03.prefab
-  artifactKey: Guid(7076a1032c4d3cc40849143885ed06e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/village/Prefabs/Props/Bottle_03.prefab using Guid(7076a1032c4d3cc40849143885ed06e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd015ed51739e0c33b098f045881155da') in 0.009742 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000192 seconds.
-  path: Assets/Import/village/Prefabs/Props/Bag.prefab
-  artifactKey: Guid(6779abfa040dbfe47855654b6c604912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/village/Prefabs/Props/Bag.prefab using Guid(6779abfa040dbfe47855654b6c604912) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cda0c86c5350f840f850e4740a7e2648') in 0.010147 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/Import/village/Prefabs/Props/Bottle_02.prefab
-  artifactKey: Guid(e15fb895ccf8cde449f1ace6cebdf570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/village/Prefabs/Props/Bottle_02.prefab using Guid(e15fb895ccf8cde449f1ace6cebdf570) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de8de64627877b3ee7a833eaddbff882') in 0.011908 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/Import/village/Prefabs/Props/Bottle_04.prefab
-  artifactKey: Guid(613e431ca1846714ea50e384299453f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/village/Prefabs/Props/Bottle_04.prefab using Guid(613e431ca1846714ea50e384299453f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83002ea4a2613ff5fe4c6a143cd81bec') in 0.011019 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Import/village/Prefabs/Props/Bench_01.prefab
-  artifactKey: Guid(d6df1db0f59f336438080737d0f58ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/village/Prefabs/Props/Bench_01.prefab using Guid(d6df1db0f59f336438080737d0f58ee6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c76b20e9a55bb7f902c252ad3c79ed6e') in 0.012233 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/Import/village/Prefabs/Props/Book_02.prefab
-  artifactKey: Guid(ca16fe4bfb99ad84492c9d8703790be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/village/Prefabs/Props/Book_02.prefab using Guid(ca16fe4bfb99ad84492c9d8703790be2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4934fdbc6d62d10cf9801b818f0d94c0') in 0.011721 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Import/village/Prefabs/Props/Book_01.prefab
-  artifactKey: Guid(e4976432fcd76624bba1a1b6e0518659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/village/Prefabs/Props/Book_01.prefab using Guid(e4976432fcd76624bba1a1b6e0518659) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2afcd13a36ca87f6f202fe170360c46e') in 0.013856 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000191 seconds.
-  path: Assets/Import/village/Prefabs/Props/Board_09.prefab
-  artifactKey: Guid(adb701da99e39b746a8948d7e813c390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/village/Prefabs/Props/Board_09.prefab using Guid(adb701da99e39b746a8948d7e813c390) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7130012e5c74ff07cfe1adbd6663deec') in 0.013328 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.578352 seconds.
-  path: Assets/Prefabe/Village
-  artifactKey: Guid(d1000afac33c79e4aa86cfea447c3fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabe/Village using Guid(d1000afac33c79e4aa86cfea447c3fd9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39baca88ef95b0b78ebacf2412e0295e') in 0.004909 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.086464 seconds.
-  path: Assets/Prefabe/Village/DesertVillage.prefab
-  artifactKey: Guid(64ba27f9af6192f4fa7217475e648bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabe/Village/DesertVillage.prefab using Guid(64ba27f9af6192f4fa7217475e648bd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e67a3721ab237e3c5843d98699a8a73e') in 0.019324 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/Prefabe/Village/TownScreenshot.prefab
-  artifactKey: Guid(4334e80788a657149a4429ee33dcbfe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabe/Village/TownScreenshot.prefab using Guid(4334e80788a657149a4429ee33dcbfe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9590e22c398d5b4f50110041e5d787f6') in 0.053258 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Prefabe/Village/Ville 2.prefab
-  artifactKey: Guid(7c5cf559da83f8f4dbdd97be026a5ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabe/Village/Ville 2.prefab using Guid(7c5cf559da83f8f4dbdd97be026a5ac2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a400310bd01c43de1752ac8d414a03') in 0.121740 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000138 seconds.
-  path: Assets/Prefabe/Village/Ville.prefab
-  artifactKey: Guid(7baf2c30be42d6c47b361109df51205f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabe/Village/Ville.prefab using Guid(7baf2c30be42d6c47b361109df51205f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a78e78439d471d1acd520615db99621') in 0.176243 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Prefabe/Village/ville 1.prefab
-  artifactKey: Guid(201372aa180e48b4ea8259c1415bee8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabe/Village/ville 1.prefab using Guid(201372aa180e48b4ea8259c1415bee8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acf30513ea1da6807d8e5c8e1af963a0') in 0.101780 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 80.533928 seconds.
-  path: Assets/Import/village/Prefabs/Food
-  artifactKey: Guid(870c2ff776d3a5a458532f00819a44c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/village/Prefabs/Food using Guid(870c2ff776d3a5a458532f00819a44c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa1703576d0cbc0826b08e27cb717291') in 0.005076 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.062196 seconds.
-  path: Assets/Import/village/Prefabs/Food/Apple.prefab
-  artifactKey: Guid(ac4ce610ffbff374abf2ddc743c4bc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/village/Prefabs/Food/Apple.prefab using Guid(ac4ce610ffbff374abf2ddc743c4bc00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6635f86bda6ddd89c47c930ab147b3b') in 0.010926 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000110 seconds.
-  path: Assets/Import/village/Prefabs/Food/Mushroom.prefab
-  artifactKey: Guid(4b8005b48e60b6741adac3c5d0e1638a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/village/Prefabs/Food/Mushroom.prefab using Guid(4b8005b48e60b6741adac3c5d0e1638a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '873f74b765037fff48f90dc4bd7f19f6') in 0.013106 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Import/village/Prefabs/Food/Pumpkin.prefab
-  artifactKey: Guid(707ea21788123364483961272ca8ccd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/village/Prefabs/Food/Pumpkin.prefab using Guid(707ea21788123364483961272ca8ccd1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8305b32298a697392baf78b0980b613') in 0.039530 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000184 seconds.
-  path: Assets/Import/village/Prefabs/Food/Cheese.prefab
-  artifactKey: Guid(7f45bee33e85940449844c33bc91f3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/village/Prefabs/Food/Cheese.prefab using Guid(7f45bee33e85940449844c33bc91f3ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bf0ab6d7b404a16a98e1a2e5a8f6353') in 0.041156 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000200 seconds.
-  path: Assets/Import/village/Prefabs/Food/Pear.prefab
-  artifactKey: Guid(06795ef25b50a9a4897b1efe699d1029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/village/Prefabs/Food/Pear.prefab using Guid(06795ef25b50a9a4897b1efe699d1029) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c63e7367ebe5479bfbe8c13640d8fdcf') in 0.011448 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000190 seconds.
-  path: Assets/Import/village/Prefabs/Food/Steak_02.prefab
-  artifactKey: Guid(65cb2b9c57040194e918610699f44c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/village/Prefabs/Food/Steak_02.prefab using Guid(65cb2b9c57040194e918610699f44c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7e7127c3e21fbea29e01001289e0573') in 0.014344 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000177 seconds.
-  path: Assets/Import/village/Prefabs/Food/Carrot.prefab
-  artifactKey: Guid(e09c08532cf1f4a44be0a934aafcd331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/village/Prefabs/Food/Carrot.prefab using Guid(e09c08532cf1f4a44be0a934aafcd331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ba4c133fade8d98906de241651aa62e') in 0.014246 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Import/village/Prefabs/Food/Tomato.prefab
-  artifactKey: Guid(86aef302a6238094f914bcb8ad4bfa08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/village/Prefabs/Food/Tomato.prefab using Guid(86aef302a6238094f914bcb8ad4bfa08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba334bfc1414ce0913c05f8fc45ec2b9') in 0.016935 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/Import/village/Prefabs/Food/Orange.prefab
-  artifactKey: Guid(03fb290f99e0d544bbf3a07249a4d870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/village/Prefabs/Food/Orange.prefab using Guid(03fb290f99e0d544bbf3a07249a4d870) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96e0cd40559daaf4dc4416d239a77e47') in 0.010642 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000204 seconds.
-  path: Assets/Import/village/Prefabs/Food/Steak_01.prefab
-  artifactKey: Guid(59302acc2f389e14881279578b78a889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/village/Prefabs/Food/Steak_01.prefab using Guid(59302acc2f389e14881279578b78a889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35143d03b6ccc8d5784a7a1d1c72a3fc') in 0.014915 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/Import/village/Prefabs/Food/Garlic.prefab
-  artifactKey: Guid(84a8d410e464c6d4ca7cb2c74b23da1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/village/Prefabs/Food/Garlic.prefab using Guid(84a8d410e464c6d4ca7cb2c74b23da1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e80aeab2583fffeb947b17e60252bcd') in 0.013902 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 700.945428 seconds.
-  path: Assets/Import/village/Prefabs/Nature/Plant_03.prefab
-  artifactKey: Guid(e3fc257ddf42c7545a1bdf8e3d50fa5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/village/Prefabs/Nature/Plant_03.prefab using Guid(e3fc257ddf42c7545a1bdf8e3d50fa5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01858dc4587303e3c20e0bfe3f2f32d0') in 0.013109 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.748940 seconds.
-  path: Assets/Import/village/Prefabs/Nature/Flower_04.prefab
-  artifactKey: Guid(5c42d9669c250fa44961d8b28f6c9e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/village/Prefabs/Nature/Flower_04.prefab using Guid(5c42d9669c250fa44961d8b28f6c9e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca23d8b9c112dec1538b1349d998ac35') in 0.019469 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.818084 seconds.
-  path: Assets/Import/village/Prefabs/Nature/Flower_04.prefab
-  artifactKey: Guid(5c42d9669c250fa44961d8b28f6c9e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/village/Prefabs/Nature/Flower_04.prefab using Guid(5c42d9669c250fa44961d8b28f6c9e5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b05e97ccbbd119a5d2bc8ef29f8a9a9') in 0.008224 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 22.824419 seconds.
-  path: Assets/Import/village/Prefabs/Nature/Rock_01.prefab
-  artifactKey: Guid(b11914487302400459c19c4113a4f3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/village/Prefabs/Nature/Rock_01.prefab using Guid(b11914487302400459c19c4113a4f3ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a389617fe9ef43c01db2ea2df0b9d348') in 0.012253 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.004757 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Dimit\Documents\GitHub\Epita-RPG\EpitaJeu\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Dimit\Documents\GitHub\Epita-RPG\EpitaJeu\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.925 seconds
-Domain Reload Profiling:
-	ReloadAssembly (925ms)
-		BeginReloadAssembly (105ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (767ms)
-			LoadAssemblies (80ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (309ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (263ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (60ms)
-				ProcessInitializeOnLoadAttributes (187ms)
+				ProcessInitializeOnLoadAttributes (200ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.22 ms, found 3 plugins.
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4391 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 220.1 MB.
-System memory in use after: 220.4 MB.
+Unloading 4474 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 207.0 MB.
+System memory in use after: 207.2 MB.
 
-Unloading 17 unused Assets to reduce memory usage. Loaded Objects now: 5000.
-Total: 3.677600 ms (FindLiveObjects: 0.423000 ms CreateObjectMapping: 0.119000 ms MarkObjects: 3.113200 ms  DeleteObjects: 0.021400 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 4951.
+Total: 3.369600 ms (FindLiveObjects: 0.343600 ms CreateObjectMapping: 0.109800 ms MarkObjects: 2.821400 ms  DeleteObjects: 0.093600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -634,968 +133,231 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 950.982432 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_01a.fbx
-  artifactKey: Guid(e9975ed74d64464478bf74a3fa3169d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_01a.fbx using Guid(e9975ed74d64464478bf74a3fa3169d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9021217e1d087e947e63f632ae8af42') in 0.094670 seconds 
+  path: Assets/Import/Chateau/PolygonKnights/Prefabs/Characters/Character_Soldier_02_Yellow.prefab
+  artifactKey: Guid(0ce8d79c0cd21d640acf39e223c5fd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Chateau/PolygonKnights/Prefabs/Characters/Character_Soldier_02_Yellow.prefab using Guid(0ce8d79c0cd21d640acf39e223c5fd26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589e56713ddac88b3318189ccd5c3b28') in 0.206418 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.154319 seconds.
-  path: Assets/Musique/Footstep Surface Reader/Demo scene/sounds/AUDIO_footstep_ GRASS (1).wav
-  artifactKey: Guid(34070d65b8396a44aaa2b268cc4e7858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Musique/Footstep Surface Reader/Demo scene/sounds/AUDIO_footstep_ GRASS (1).wav using Guid(34070d65b8396a44aaa2b268cc4e7858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e915858309dcde60b8b4e462f4f3c422') in 0.073865 seconds 
+  Time since last request: 0.000139 seconds.
+  path: Assets/Import/Chateau/PolygonKnights/Prefabs/Characters/Character_Knight_02_Blue.prefab
+  artifactKey: Guid(7320372aefdc71442a2cf8b68a738f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Chateau/PolygonKnights/Prefabs/Characters/Character_Knight_02_Blue.prefab using Guid(7320372aefdc71442a2cf8b68a738f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aba29949574850dc504831b0fd4647d4') in 0.042880 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000160 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_01i.fbx
-  artifactKey: Guid(a9f21543155bb674280a658a80f17803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_01i.fbx using Guid(a9f21543155bb674280a658a80f17803) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee15f2269308e5c431607bbe9571fe47') in 0.083673 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_04b.fbx
-  artifactKey: Guid(585137c97bab8a444951d905ff71dbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_04b.fbx using Guid(585137c97bab8a444951d905ff71dbb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67bde725e9cf25034267bbf269c2f87e') in 0.056431 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_02e1_PRE 1.prefab
-  artifactKey: Guid(cf44f74f13b763549b04abb54828e708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_02e1_PRE 1.prefab using Guid(cf44f74f13b763549b04abb54828e708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf2798d53d27fb7ebeabebaa8fd86119') in 0.038634 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_Hill_Dead_01c.fbx
-  artifactKey: Guid(64231c771c8427a48add97e44ead9c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_Hill_Dead_01c.fbx using Guid(64231c771c8427a48add97e44ead9c49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca640dbab75f9d33a093811a3dcaf303') in 0.045462 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_02e.fbx
-  artifactKey: Guid(af12085094657df4986a00f5ed523f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_02e.fbx using Guid(af12085094657df4986a00f5ed523f1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87f2262f9804bd4b1ad929000b123854') in 0.044547 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Ground/EA_Swamp_Grass_Hill_Dead_01c_PRE.prefab
-  artifactKey: Guid(a8087d5babfd193408ccfdebbff1c4c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Ground/EA_Swamp_Grass_Hill_Dead_01c_PRE.prefab using Guid(a8087d5babfd193408ccfdebbff1c4c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e7efea579f56abad0c71015384d6bf5f') in 0.017045 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000128 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_01i_PRE.prefab
-  artifactKey: Guid(7cfb7f5f10a98d84296b9ca4dd9533bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_01i_PRE.prefab using Guid(7cfb7f5f10a98d84296b9ca4dd9533bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d7115ca9372a3ded933882f53ae5ca3') in 0.012965 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_01b.fbx
-  artifactKey: Guid(d65613e5ab4f93340900af1bf6a496c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_01b.fbx using Guid(d65613e5ab4f93340900af1bf6a496c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4865d0585d8463f7ab244c412178d5a') in 0.016599 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Ground/EA_Swamp_Grass_Hill_Dead_01b_PRE.prefab
-  artifactKey: Guid(cfeeba413cae2b941806ada0b18d3f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Ground/EA_Swamp_Grass_Hill_Dead_01b_PRE.prefab using Guid(cfeeba413cae2b941806ada0b18d3f0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cc3f9ab29db80fd2ae13395d06f576b') in 0.015994 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000120 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_01h.fbx
-  artifactKey: Guid(e5102fe327f88654eba710b95f7c82b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_01h.fbx using Guid(e5102fe327f88654eba710b95f7c82b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7a7cfbaee885bf74c84c69a02395579') in 0.022269 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_02a.fbx
-  artifactKey: Guid(2bce34a53430229468759f54b49c3588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_02a.fbx using Guid(2bce34a53430229468759f54b49c3588) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f6c85373548d061c93552fb4904cf5b') in 0.022113 seconds 
+  Time since last request: 0.000141 seconds.
+  path: Assets/Import/Chateau/PolygonKnights/Prefabs/Characters/Character_Knight_03_Black.prefab
+  artifactKey: Guid(8f6b0c88789bc024189afa8e609cf122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Chateau/PolygonKnights/Prefabs/Characters/Character_Knight_03_Black.prefab using Guid(8f6b0c88789bc024189afa8e609cf122) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa92315d9829f31839e9a433263e5f20') in 0.035583 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000159 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_02c_PRE.prefab
-  artifactKey: Guid(4f696bf3c2710a942b30fd3b231c542a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_02c_PRE.prefab using Guid(4f696bf3c2710a942b30fd3b231c542a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eecbd23f09c84d9863e7bcc82b82db71') in 0.014448 seconds 
+  path: Assets/Import/Chateau/PolygonKnights/Prefabs/Characters/Character_Soldier_01_Yellow.prefab
+  artifactKey: Guid(1da128d179f99f24b8127fd97ca15aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Chateau/PolygonKnights/Prefabs/Characters/Character_Soldier_01_Yellow.prefab using Guid(1da128d179f99f24b8127fd97ca15aac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9460edf9c512ef3f6723cda21fead1c5') in 0.038611 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_04a.fbx
-  artifactKey: Guid(77036ce9002962745b9977221debe089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_04a.fbx using Guid(77036ce9002962745b9977221debe089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d357f5b309f4b7d1bf4b8fc9331d64e') in 0.024304 seconds 
+  Time since last request: 0.000139 seconds.
+  path: Assets/Import/Chateau/PolygonKnights/Prefabs/Characters/Character_Knight_01_Orange.prefab
+  artifactKey: Guid(360c73b9bf9a34d4c84bc0581d0499eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Chateau/PolygonKnights/Prefabs/Characters/Character_Knight_01_Orange.prefab using Guid(360c73b9bf9a34d4c84bc0581d0499eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b503a9d66892aceaf5d63744d88484b') in 0.038677 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_03a_PRE.prefab
-  artifactKey: Guid(741607f009d1aaa4f94a75a06331d8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_03a_PRE.prefab using Guid(741607f009d1aaa4f94a75a06331d8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e4e550811808d5a8aa564b456de089e') in 0.016141 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_Hill_Dead_01a.fbx
-  artifactKey: Guid(c14cc4ff9f58d384d9eb7b715c0c4a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_Hill_Dead_01a.fbx using Guid(c14cc4ff9f58d384d9eb7b715c0c4a0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '767b045785330705fd5520e1a92aabbc') in 0.018552 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_01d.fbx
-  artifactKey: Guid(06f8b706f77a6b2449c3de59f5c8d40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_01d.fbx using Guid(06f8b706f77a6b2449c3de59f5c8d40f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b82058dbf7876ce7e8372621c894d432') in 0.023041 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_01c.fbx
-  artifactKey: Guid(1bf0bce39ad987b48bc4aeacd2ef68d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_01c.fbx using Guid(1bf0bce39ad987b48bc4aeacd2ef68d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09745b20b75301fe85951d857f50c9c9') in 0.019755 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_Mud_01j_PRE.prefab
-  artifactKey: Guid(dda808541a84e234fb7b44cbdaa7a2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_Mud_01j_PRE.prefab using Guid(dda808541a84e234fb7b44cbdaa7a2a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0436a16b51a4d40dd89bf763178539e5') in 0.014009 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_04c_PRE.prefab
-  artifactKey: Guid(3b271c4b17d272445bbdaa7da7b6d314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_04c_PRE.prefab using Guid(3b271c4b17d272445bbdaa7da7b6d314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c89d6e57ec345d361910c36a7511f27') in 0.016651 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_01e_PRE.prefab
-  artifactKey: Guid(cf50425dfc755f44facfa584d4f784a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_01e_PRE.prefab using Guid(cf50425dfc755f44facfa584d4f784a8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c47e7a4de40bd807fef7bb0cfd064d6') in 0.015643 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000172 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_01j_PRE.prefab
-  artifactKey: Guid(dd0b0697bd1746a45a392518648027c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_01j_PRE.prefab using Guid(dd0b0697bd1746a45a392518648027c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b20a4adf5d4355e916315a0f84e1630') in 0.016405 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_02d_PRE.prefab
-  artifactKey: Guid(57350b2d6ac3cea47bc3c348c744ea5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_02d_PRE.prefab using Guid(57350b2d6ac3cea47bc3c348c744ea5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efa6c51b048e253a132936a58f83cf45') in 0.016829 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_04a_PRE.prefab
-  artifactKey: Guid(1d17bb990eb11dd478a546ba8473afd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_04a_PRE.prefab using Guid(1d17bb990eb11dd478a546ba8473afd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '927ca6236218ae52c1de1f06357c2a2e') in 0.011443 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_Hill_Dead_01d.fbx
-  artifactKey: Guid(b13357fcccc038f47b7abc9d88871067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_Hill_Dead_01d.fbx using Guid(b13357fcccc038f47b7abc9d88871067) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e92abb7c29bdfb5339a368f866aef3d') in 0.023307 seconds 
+  Time since last request: 0.000150 seconds.
+  path: Assets/Import/Chateau/PolygonKnights/Prefabs/Characters/Character_Knight_03_Blue.prefab
+  artifactKey: Guid(a62e0ab0f0837ca48adf4710699a7e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Chateau/PolygonKnights/Prefabs/Characters/Character_Knight_03_Blue.prefab using Guid(a62e0ab0f0837ca48adf4710699a7e91) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd0565273596cab4d55c67ed642abecb') in 0.036833 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000178 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_01g_PRE.prefab
-  artifactKey: Guid(9a87ef1f21246544ca72d6e311268661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_01g_PRE.prefab using Guid(9a87ef1f21246544ca72d6e311268661) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9447c7d89ccf6da128841cc46f4d374') in 0.021373 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_01b_PRE.prefab
-  artifactKey: Guid(a21d6651ecf9171498223614243f2302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_01b_PRE.prefab using Guid(a21d6651ecf9171498223614243f2302) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8327f06342e5bb1445487771a1ecd70d') in 0.012219 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000311 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_01j.fbx
-  artifactKey: Guid(73ac154264569bf4e92c97eba2d44cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_01j.fbx using Guid(73ac154264569bf4e92c97eba2d44cc0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce4dfe2f7fd32df89361997ec8e313e') in 0.017549 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_Hill_Dead_01b.fbx
-  artifactKey: Guid(d534f1ad3a14101469f8e7bed925aeeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_Hill_Dead_01b.fbx using Guid(d534f1ad3a14101469f8e7bed925aeeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c79464b9fd1299e4bede47434ffbcf6') in 0.012565 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_01e.fbx
-  artifactKey: Guid(525c96f49f6755842807efa2cd92aed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_01e.fbx using Guid(525c96f49f6755842807efa2cd92aed5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce576eb038f9b3c35b40b2619f71f23') in 0.015763 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_02d.fbx
-  artifactKey: Guid(c27447bacdddde241b0dbb21dcb77bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_02d.fbx using Guid(c27447bacdddde241b0dbb21dcb77bb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb200dac2594e9ea380ed32b421b7d17') in 0.015775 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_01c_PRE.prefab
-  artifactKey: Guid(226926c9e2905e340af25a35b65d6983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_01c_PRE.prefab using Guid(226926c9e2905e340af25a35b65d6983) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea986c956bad032cf815928d93086cb3') in 0.010542 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_04b_PRE.prefab
-  artifactKey: Guid(6271c242c14b78e459667234b4e9bc3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_04b_PRE.prefab using Guid(6271c242c14b78e459667234b4e9bc3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12e7eba26ae7ff33731a4ec475858784') in 0.010918 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_01h_PRE.prefab
-  artifactKey: Guid(397b12bba32852b4aa4ca0bbbf40bf35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_01h_PRE.prefab using Guid(397b12bba32852b4aa4ca0bbbf40bf35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15d3368ce4ed6215764c2a8a4691ca7c') in 0.010999 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_02c.fbx
-  artifactKey: Guid(7f675e30efab2bf4bbcfaecc8c5753da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_02c.fbx using Guid(7f675e30efab2bf4bbcfaecc8c5753da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7174bbc462abe810f6e4bcbfae684f66') in 0.017912 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_01g.fbx
-  artifactKey: Guid(35440b9957cfbc343ae2a9c6b0285298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_01g.fbx using Guid(35440b9957cfbc343ae2a9c6b0285298) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5161c861f3b4d88f0f068cb54e655e47') in 0.015552 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_01a_PRE.prefab
-  artifactKey: Guid(3c17494097102d349b38158d0f1bfdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_01a_PRE.prefab using Guid(3c17494097102d349b38158d0f1bfdc5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fed1c85b9101df56298f7c3ac344fe3') in 0.011234 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_Mud_01j.fbx
-  artifactKey: Guid(030ca4a83f8c99c42b9d2e634b810a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_Mud_01j.fbx using Guid(030ca4a83f8c99c42b9d2e634b810a78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9605c4173b52488d20dce46af77db5b3') in 0.015703 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000165 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_02b_PRE.prefab
-  artifactKey: Guid(53b1e5ee14be56142b270a3dfa741a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_02b_PRE.prefab using Guid(53b1e5ee14be56142b270a3dfa741a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95d258008759b78e81292d31de6cb3fc') in 0.015239 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000207 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_02e_PRE.prefab
-  artifactKey: Guid(e29b71e56ddb36848afa39aef21c9091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_02e_PRE.prefab using Guid(e29b71e56ddb36848afa39aef21c9091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d496984e086287fad283d58f0017340') in 0.010004 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_01f_PRE.prefab
-  artifactKey: Guid(a83907d2fbe391940af701945bd6076e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_01f_PRE.prefab using Guid(a83907d2fbe391940af701945bd6076e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b126a5203b7972cd0c91c309d16ba97b') in 0.024761 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_02ex_PRE .prefab
-  artifactKey: Guid(bb6ee6ec5ebac404c8f9fdcedb224566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_02ex_PRE .prefab using Guid(bb6ee6ec5ebac404c8f9fdcedb224566) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8804b2bd2238926a7ee3fe2f9637b0b4') in 0.032900 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_03a.fbx
-  artifactKey: Guid(ac8af30ef634790419d2215d7de352bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_03a.fbx using Guid(ac8af30ef634790419d2215d7de352bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '697c4d3771d282e7efde17cc7bf07999') in 0.016704 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000166 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_04c.fbx
-  artifactKey: Guid(fa6c3512003045b428d9a10409546888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_04c.fbx using Guid(fa6c3512003045b428d9a10409546888) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90256cb5e9e779f7bedef6330bf1710a') in 0.015929 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000114 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Ground/EA_Swamp_Grass_Hill_Dead_01d_PRE.prefab
-  artifactKey: Guid(c1d4b215fd5c84d40847caffcd952027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Ground/EA_Swamp_Grass_Hill_Dead_01d_PRE.prefab using Guid(c1d4b215fd5c84d40847caffcd952027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4a7651ecac2fde8ee1d897a42b29139') in 0.010923 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_01jx.fbx
-  artifactKey: Guid(dee9605068a8ba5409b9ce8c5f5ca18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_01jx.fbx using Guid(dee9605068a8ba5409b9ce8c5f5ca18e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f98c04f85560d8a9d647a792c0d13511') in 0.021870 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_Mud_01i.fbx
-  artifactKey: Guid(b5c179da589e06f45920b88643f18f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_Mud_01i.fbx using Guid(b5c179da589e06f45920b88643f18f8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '589e6e267461a0708e2e41ef565626ed') in 0.022787 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_Mud_01i_PRE.prefab
-  artifactKey: Guid(4bd11f857465d55499a9ab0bc408b8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_Mud_01i_PRE.prefab using Guid(4bd11f857465d55499a9ab0bc408b8f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c808fc2b7fe4f1112b76f6c45390a8a') in 0.012167 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_02a_PRE.prefab
-  artifactKey: Guid(594ee6a80a1956e4996886a0ba64030c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_02a_PRE.prefab using Guid(594ee6a80a1956e4996886a0ba64030c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72466e2d4a057957b3ccb6155226760d') in 0.011810 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_02b.fbx
-  artifactKey: Guid(7c3dcde6e8b9e2d4c98b9f1699357dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_02b.fbx using Guid(7c3dcde6e8b9e2d4c98b9f1699357dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7514879ae2662c75d1638d5d98803a6e') in 0.015544 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_01d_PRE.prefab
-  artifactKey: Guid(2cb77715bacfb1845a43fb2978d8a654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_01d_PRE.prefab using Guid(2cb77715bacfb1845a43fb2978d8a654) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7284f9f21234c3ed462b21262fb980d') in 0.011098 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_02e1_PRE.prefab
-  artifactKey: Guid(b2a16e7851ebc9c488fe81fddf44252a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_02e1_PRE.prefab using Guid(b2a16e7851ebc9c488fe81fddf44252a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1adc010460c5a8a83b76ee919dfd0a4d') in 0.010783 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Ground/EA_Swamp_Grass_Hill_Dead_01a_PRE.prefab
-  artifactKey: Guid(8fc2b8123ba69f24e8deb2fb59f1a010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Ground/EA_Swamp_Grass_Hill_Dead_01a_PRE.prefab using Guid(8fc2b8123ba69f24e8deb2fb59f1a010) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '554fed34ef6f20a24a3d27d76c113380') in 0.012853 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_01f.fbx
-  artifactKey: Guid(ba50676bc477e61499ba09ef98925e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_01f.fbx using Guid(ba50676bc477e61499ba09ef98925e32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35aa0ffc22b3442349f9abda5635fdde') in 0.018383 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 17.168224 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_Mud_01jx1.fbx
-  artifactKey: Guid(70acc0dc5e6bf8d4385d89f0660e4ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_Mud_01jx1.fbx using Guid(70acc0dc5e6bf8d4385d89f0660e4ad6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '005cb49627dd2006084045aa53729894') in 0.020567 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/Import/LowPolyFarmLite/Prefabs/Grass_02.prefab
-  artifactKey: Guid(81dad7d5552c9a341b390c79338fe0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/LowPolyFarmLite/Prefabs/Grass_02.prefab using Guid(81dad7d5552c9a341b390c79338fe0a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91eec635b058113a677ae5dca9c5927a') in 0.033672 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/Import/Supercyan Free Forest Sample/Prefabs/High Quality/Foliage/Grass/forestpack_foliage_grassPatch_small_1.prefab
-  artifactKey: Guid(791c30b04e8fc1e4fbf198c410a652e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Supercyan Free Forest Sample/Prefabs/High Quality/Foliage/Grass/forestpack_foliage_grassPatch_small_1.prefab using Guid(791c30b04e8fc1e4fbf198c410a652e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d52a08918312e310d94f1dca7c79b23') in 0.042571 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Import/Texture/Demo/terrain_layers/Grass_bluetint_down.terrainlayer
-  artifactKey: Guid(af09d6fd4ebc81e448c4a90956dfb789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Demo/terrain_layers/Grass_bluetint_down.terrainlayer using Guid(af09d6fd4ebc81e448c4a90956dfb789) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa4d38385d3dbea6718dab5d288e893d') in 0.040206 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000144 seconds.
-  path: Assets/Import/Texture/Textures/Grass/Grass_corrupted/Grass_corrupted_down.png
-  artifactKey: Guid(3d2d1e0a5d613ec41bd2b90a7d0ecec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Textures/Grass/Grass_corrupted/Grass_corrupted_down.png using Guid(3d2d1e0a5d613ec41bd2b90a7d0ecec6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca6e8aa4d507a7434505cbaf59058e4') in 0.049420 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/Import/Texture/Textures/Grass/Grass_bluetint/Grass_bluetint_up.png
-  artifactKey: Guid(87faeff29765dd54d93f5ba0cdabfa58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Textures/Grass/Grass_bluetint/Grass_bluetint_up.png using Guid(87faeff29765dd54d93f5ba0cdabfa58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '755b4942e91f1e448eeeae4dc66cef3f') in 0.038942 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000136 seconds.
-  path: Assets/Import/Supercyan Free Forest Sample/Models/Foliage/Grass/forestpack_foliage_grassPatch_small_2.fbx
-  artifactKey: Guid(3b528a8c228f8c942b986767297f715c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Supercyan Free Forest Sample/Models/Foliage/Grass/forestpack_foliage_grassPatch_small_2.fbx using Guid(3b528a8c228f8c942b986767297f715c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e59e1ff43b17b32acdeefa08e15cf543') in 0.030837 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000121 seconds.
-  path: Assets/Import/Texture/Textures/Grass/Grass_corrupted/Grass_corrupted_right.png
-  artifactKey: Guid(1751e30d5bcaf6e48853598b21d34826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Textures/Grass/Grass_corrupted/Grass_corrupted_right.png using Guid(1751e30d5bcaf6e48853598b21d34826) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4793805fd06ce9df771e8c603818dea3') in 0.021935 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000183 seconds.
-  path: Assets/Import/Texture/Textures/Grass/Grass_desatured/Grass_desatured_left.png
-  artifactKey: Guid(d916e88f8aa1fa442944ce97554f6adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Textures/Grass/Grass_desatured/Grass_desatured_left.png using Guid(d916e88f8aa1fa442944ce97554f6adf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b6f5c3239bbd7d87282f573d11868cb') in 0.023311 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000117 seconds.
-  path: Assets/Import/Texture/Textures/Grass/Grass_darked/Grass_darked_left.png
-  artifactKey: Guid(2d46fcecf861db146a6a331115071f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Textures/Grass/Grass_darked/Grass_darked_left.png using Guid(2d46fcecf861db146a6a331115071f0e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '888186e0bbbd7afbce15fe02ce983b69') in 0.020779 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/Import/Texture/Textures/Grass/Grass_overcorrupted/Grass_overcorrupted_down.png
-  artifactKey: Guid(8acdc6d940b8a594792bbae9f254ed32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Textures/Grass/Grass_overcorrupted/Grass_overcorrupted_down.png using Guid(8acdc6d940b8a594792bbae9f254ed32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d3d40f73b044a5e1df9ea13c99aae3') in 0.019666 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/Import/Texture/Demo/terrain_layers/Grass_desatured_down.terrainlayer
-  artifactKey: Guid(6cc09a088a350a64fa9c4fdadce1ce3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Demo/terrain_layers/Grass_desatured_down.terrainlayer using Guid(6cc09a088a350a64fa9c4fdadce1ce3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0605479675de11bbb7b1becd02d19bf8') in 0.024481 seconds 
+  path: Assets/Import/Chateau/PolygonKnights/Prefabs/Characters/Character_Soldier_01_Black.prefab
+  artifactKey: Guid(a6ebdfa58063c6e40a19612fc9013404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Chateau/PolygonKnights/Prefabs/Characters/Character_Soldier_01_Black.prefab using Guid(a6ebdfa58063c6e40a19612fc9013404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6709e5109394030627d0e562f0541fa') in 0.030345 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000174 seconds.
-  path: Assets/Import/Texture/Textures/Grass/Grass_desatured/Grass_desatured_up.png
-  artifactKey: Guid(08fd9bc0030381b4f832659a4622fcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Textures/Grass/Grass_desatured/Grass_desatured_up.png using Guid(08fd9bc0030381b4f832659a4622fcbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cacc78b6ee55e952308cfda2b444c35') in 0.021405 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000179 seconds.
-  path: Assets/Import/Texture/Textures/Grass/Grass_darked/Grass_darked_up.png
-  artifactKey: Guid(df73a5b6a8127ff40a8c6840516304de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Textures/Grass/Grass_darked/Grass_darked_up.png using Guid(df73a5b6a8127ff40a8c6840516304de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45587ea491d066b76d660916b6e3cdbc') in 0.020751 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000170 seconds.
-  path: Assets/Import/Texture/Textures/Grass/Grass_darked/Grass_darked_down.png
-  artifactKey: Guid(9234305f12ded3442b911c3ff978d340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Textures/Grass/Grass_darked/Grass_darked_down.png using Guid(9234305f12ded3442b911c3ff978d340) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab4a7d102456762893a38e15977b015d') in 0.022480 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Import/Texture/Demo/terrain_layers/Grass_desatured_right.terrainlayer
-  artifactKey: Guid(e788cd2c1fd684744ba303b8cb656bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Demo/terrain_layers/Grass_desatured_right.terrainlayer using Guid(e788cd2c1fd684744ba303b8cb656bf3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96250358ae1696b40cfbd934293f3c54') in 0.026693 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/Import/Texture/Textures/Grass/Grass_bluetint/Grass_bluetint_down.png
-  artifactKey: Guid(5ec0f071b81b63241967c85ddfc73ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Textures/Grass/Grass_bluetint/Grass_bluetint_down.png using Guid(5ec0f071b81b63241967c85ddfc73ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2dbd813569a1d08faf394f8bf9fbc373') in 0.009934 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000118 seconds.
-  path: Assets/Import/Texture/Textures/Grass/Grass_corrupted/Grass_corrupted_up.png
-  artifactKey: Guid(a6ee5260deb44d247ae90120ee36766b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Textures/Grass/Grass_corrupted/Grass_corrupted_up.png using Guid(a6ee5260deb44d247ae90120ee36766b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6db7b4b1b05b12ae13c2e0ec0dd4e62') in 0.021079 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Import/Texture/Demo/terrain_layers/Grass_normal_right.terrainlayer
-  artifactKey: Guid(230d99471a8ceec4e91c4455a1f70044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Demo/terrain_layers/Grass_normal_right.terrainlayer using Guid(230d99471a8ceec4e91c4455a1f70044) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1870bf32da8d10ce47b4d4ed94a9e47c') in 0.025669 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000132 seconds.
-  path: Assets/Import/Texture/Textures/Grass/Grass_lighted/Grass_lighted_left.png
-  artifactKey: Guid(80d6d2d5125a9fa43999ca6f99876b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Textures/Grass/Grass_lighted/Grass_lighted_left.png using Guid(80d6d2d5125a9fa43999ca6f99876b08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bcef2a47d75e82e10f6b4f4fab058ed') in 0.021650 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Import/Texture/Demo/terrain_layers/Grass_darked_right.terrainlayer
-  artifactKey: Guid(1b91aa2ac8fa2b04b972e4af2dfa295b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Demo/terrain_layers/Grass_darked_right.terrainlayer using Guid(1b91aa2ac8fa2b04b972e4af2dfa295b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd163c74082c314d549f871f36c57dce3') in 0.024585 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Import/Texture/Demo/terrain_layers/Grass_corrupted_down.terrainlayer
-  artifactKey: Guid(acddab07f8ac8c84aa7852a315806c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Demo/terrain_layers/Grass_corrupted_down.terrainlayer using Guid(acddab07f8ac8c84aa7852a315806c4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d6ae9d87b00e957b4c82bdd30971fe') in 0.014643 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000140 seconds.
-  path: Assets/Import/Texture/Demo/terrain_layers/Grass_corrupted_up.terrainlayer
-  artifactKey: Guid(ba4dd0b5a1d820f45946c6f4e6c4ae24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Demo/terrain_layers/Grass_corrupted_up.terrainlayer using Guid(ba4dd0b5a1d820f45946c6f4e6c4ae24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf66a35eacf6888f8544c2caafdd9e55') in 0.014320 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/Import/Texture/Textures/Grass/Grass_lighted/Grass_lighted_right.png
-  artifactKey: Guid(1cc842c6c568a764eaec781aab3e01b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Textures/Grass/Grass_lighted/Grass_lighted_right.png using Guid(1cc842c6c568a764eaec781aab3e01b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0100ec904e229e0c754a88d26b3537e8') in 0.021212 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000158 seconds.
-  path: Assets/Import/Texture/Demo/terrain_layers/Grass_normal_up.terrainlayer
-  artifactKey: Guid(d89b6494d9fbc994182207fed5df47a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Demo/terrain_layers/Grass_normal_up.terrainlayer using Guid(d89b6494d9fbc994182207fed5df47a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3595d0d5c7a320b63226de89d29b4787') in 0.024339 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_Mud_01jx2_PRE.prefab
-  artifactKey: Guid(6e5aee19eb41be44c9356ad0ad41ac78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_Mud_01jx2_PRE.prefab using Guid(6e5aee19eb41be44c9356ad0ad41ac78) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64cd642a6a4b86ba4eacb1e0a201efd7') in 0.014378 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/Import/Texture/Demo/terrain_layers/Grass_bluetint_right.terrainlayer
-  artifactKey: Guid(d05b6b35cf7b1484bb2f64c0a74476dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Demo/terrain_layers/Grass_bluetint_right.terrainlayer using Guid(d05b6b35cf7b1484bb2f64c0a74476dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62a8f16d00ca8a639e709a2ecd4bdc22') in 0.024832 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000123 seconds.
-  path: Assets/Import/Texture/Textures/Grass/Grass_overcorrupted/Grass_overcorrupted_left.png
-  artifactKey: Guid(73a2b7bd437d85b4f94fcb42c2f94287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Textures/Grass/Grass_overcorrupted/Grass_overcorrupted_left.png using Guid(73a2b7bd437d85b4f94fcb42c2f94287) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41bd713cc8c892cc3a16d5fe2950d675') in 0.021611 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/Import/LowPolyFarmLite/Models/Grass_02.fbx
-  artifactKey: Guid(fc007040ddf56d841ad2083f918a0924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/LowPolyFarmLite/Models/Grass_02.fbx using Guid(fc007040ddf56d841ad2083f918a0924) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5bfebb2df25d0a1499921e4a81c8f79') in 0.011858 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000121 seconds.
-  path: Assets/Import/Texture/Textures/Grass/Grass_desatured/Grass_desatured_down.png
-  artifactKey: Guid(bf2b3b343fdc3044fa9aae22230ac40b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Textures/Grass/Grass_desatured/Grass_desatured_down.png using Guid(bf2b3b343fdc3044fa9aae22230ac40b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30aa5fa8bcd5e5f3a4f922e65dfd9ecb') in 0.009265 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Import/Texture/Demo/terrain_layers/Grass_bluetint_left.terrainlayer
-  artifactKey: Guid(4f578fafc038b3e47889d8591aeabb7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Demo/terrain_layers/Grass_bluetint_left.terrainlayer using Guid(4f578fafc038b3e47889d8591aeabb7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdb74fe457a4df76334b02b82e3f7539') in 0.014978 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/Import/Chateau/Polytope Studio/Lowpoly Medieval Demos/Armors_Free_Pack/Grass_Layer.terrainlayer
-  artifactKey: Guid(4cd84bec0dcd70749b7a9ba74f786a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Chateau/Polytope Studio/Lowpoly Medieval Demos/Armors_Free_Pack/Grass_Layer.terrainlayer using Guid(4cd84bec0dcd70749b7a9ba74f786a0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84a9acc688440f3106b7e42322011d47') in 0.025043 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Import/Texture/Demo/terrain_layers/Grass_lighted_up.terrainlayer
-  artifactKey: Guid(466d1d3acac3ca2408920fe63d4cb054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Demo/terrain_layers/Grass_lighted_up.terrainlayer using Guid(466d1d3acac3ca2408920fe63d4cb054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '112c9e65fcd3a1dfe19747f3183b155c') in 0.025788 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/Import/nature/Nature Pack/Materials/grass_tile_01d.mat
-  artifactKey: Guid(876ce700e3b41c44cb689112a89a2467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/nature/Nature Pack/Materials/grass_tile_01d.mat using Guid(876ce700e3b41c44cb689112a89a2467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65965c88462e9e6803b9735b7abb2fbc') in 0.024608 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/Import/Texture/Demo/terrain_layers/Grass_overcorrupted_up.terrainlayer
-  artifactKey: Guid(66ebd6a3e966c7447a9f9b40428d928a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Demo/terrain_layers/Grass_overcorrupted_up.terrainlayer using Guid(66ebd6a3e966c7447a9f9b40428d928a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c53bb8536910739afe78f1b50f2d263f') in 0.027409 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000141 seconds.
-  path: Assets/Import/Supercyan Free Forest Sample/Prefabs/Mobile/Foliage/Grass/Mobile_forestpack_foliage_grassPatch_small_1.prefab
-  artifactKey: Guid(b2e600f943c41f34a89a2843ea98a353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Supercyan Free Forest Sample/Prefabs/Mobile/Foliage/Grass/Mobile_forestpack_foliage_grassPatch_small_1.prefab using Guid(b2e600f943c41f34a89a2843ea98a353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a040e3e92b9d034108c6a8a29ceb17f9') in 0.014333 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/Import/Chateau/PolygonKnights/Models/SM_Env_Grass_01.fbx
-  artifactKey: Guid(71241df5449b02f4e8ccaed69486bac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Chateau/PolygonKnights/Models/SM_Env_Grass_01.fbx using Guid(71241df5449b02f4e8ccaed69486bac1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e08a2c56f7b95d85c1d9d4efc6117b53') in 0.015733 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000175 seconds.
-  path: Assets/Import/RPGPP_LT/Models/Nature/rpgpp_lt_grass_small_01b.fbx
-  artifactKey: Guid(60f048e3ccfd7d0498e095661396963b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/RPGPP_LT/Models/Nature/rpgpp_lt_grass_small_01b.fbx using Guid(60f048e3ccfd7d0498e095661396963b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fdab80ebe15895f42d8e5a0d03ba688') in 0.011635 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Import/RPGPP_LT/Models/Nature/rpgpp_lt_terrain_grass_02.fbx
-  artifactKey: Guid(a90ec1b8be596134b912428bfce1f226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/RPGPP_LT/Models/Nature/rpgpp_lt_terrain_grass_02.fbx using Guid(a90ec1b8be596134b912428bfce1f226) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8a0798e66c37aa3cb3effc99ff05a7c') in 0.019344 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Import/RPGPP_LT/Models/Nature/rpgpp_lt_terrain_grass_01.fbx
-  artifactKey: Guid(264414c28ea0fbb41b924fd17d9228b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/RPGPP_LT/Models/Nature/rpgpp_lt_terrain_grass_01.fbx using Guid(264414c28ea0fbb41b924fd17d9228b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '918fa0a7e5302450799ca2ad34c82ed6') in 0.018554 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000125 seconds.
-  path: Assets/Import/Supercyan Free Forest Sample/Prefabs/Mobile/Foliage/Grass/Mobile_forestpack_foliage_grassPatch_small_2.prefab
-  artifactKey: Guid(fcd7ea59a703cb64dada04e84ec8a7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Supercyan Free Forest Sample/Prefabs/Mobile/Foliage/Grass/Mobile_forestpack_foliage_grassPatch_small_2.prefab using Guid(fcd7ea59a703cb64dada04e84ec8a7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6da4b2da1470356bbd74771b1c1165b') in 0.011291 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000149 seconds.
-  path: Assets/Import/RPGPP_LT/Prefabs/Nature/Terrain/rpgpp_lt_terrain_grass_02.prefab
-  artifactKey: Guid(68cbfa1438162b243ac02fb9e3e30581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/RPGPP_LT/Prefabs/Nature/Terrain/rpgpp_lt_terrain_grass_02.prefab using Guid(68cbfa1438162b243ac02fb9e3e30581) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b07cc16cc61e26b0336b5ae7445ecd2b') in 0.009232 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/Import/nature/Nature Pack/Materials/grass_tile_02.mat
-  artifactKey: Guid(fb099960a5cb41945b66d4d25ea8ba66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/nature/Nature Pack/Materials/grass_tile_02.mat using Guid(fb099960a5cb41945b66d4d25ea8ba66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d92f545d95a71f2d37cd526bd7f2db7') in 0.018559 seconds 
+  path: Assets/Import/Chateau/PolygonKnights/Prefabs/Characters/Character_Knight_03_Yellow.prefab
+  artifactKey: Guid(8106ba7338a788b4490a524fc4c3957f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Chateau/PolygonKnights/Prefabs/Characters/Character_Knight_03_Yellow.prefab using Guid(8106ba7338a788b4490a524fc4c3957f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74d6042a14279d7c920645e651097606') in 0.012817 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000126 seconds.
-  path: Assets/Import/Chateau/PolygonKnights/Models/SM_Env_MountainGrass_01.fbx
-  artifactKey: Guid(10e8bb17796014b4aab2efca793968c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Chateau/PolygonKnights/Models/SM_Env_MountainGrass_01.fbx using Guid(10e8bb17796014b4aab2efca793968c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1b9b43f75da566ce1d29201fa734990') in 0.019351 seconds 
+  path: Assets/Import/Chateau/PolygonKnights/Prefabs/Characters/Character_Soldier_02_Blue.prefab
+  artifactKey: Guid(cca9b8b9bbb59ce409c11aea054f6a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Chateau/PolygonKnights/Prefabs/Characters/Character_Soldier_02_Blue.prefab using Guid(cca9b8b9bbb59ce409c11aea054f6a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3718fd764b178d0561a55e358a3b606') in 0.014583 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000104 seconds.
-  path: Assets/Import/Texture/Demo/Materials/Material_Grass_normal.mat
-  artifactKey: Guid(7aa8c8d1ffd54e94895834366fb18bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Demo/Materials/Material_Grass_normal.mat using Guid(7aa8c8d1ffd54e94895834366fb18bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5e028a1c9efc861a5156e2c9a62dfcf') in 0.016344 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/Import/Texture/Demo/Materials/Material_Grass_bluetint.mat
-  artifactKey: Guid(335b8ffb8cc63c14fa0668a162a152cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Demo/Materials/Material_Grass_bluetint.mat using Guid(335b8ffb8cc63c14fa0668a162a152cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd00ecb40cedd260af97a8827a408f62') in 0.013989 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000193 seconds.
-  path: Assets/Import/Chateau/PolygonKnights/Models/SM_Env_Tile_Grass_01.fbx
-  artifactKey: Guid(6f89b704fb389db48aafe49efde83db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Chateau/PolygonKnights/Models/SM_Env_Tile_Grass_01.fbx using Guid(6f89b704fb389db48aafe49efde83db6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '903a4956bc2f4f1f2c7ecd09e0186b1f') in 0.016105 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000163 seconds.
-  path: Assets/Import/RPGPP_LT/Models/Nature/rpgpp_lt_grass_small_01a.fbx
-  artifactKey: Guid(c191cc4231bc1a940986671275027664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/RPGPP_LT/Models/Nature/rpgpp_lt_grass_small_01a.fbx using Guid(c191cc4231bc1a940986671275027664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de57adccb6f3d6dd7569ab8028d14ba0') in 0.012631 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/Import/Texture/Demo/terrain_layers/Grass_normal_down.terrainlayer
-  artifactKey: Guid(68e602da48e73564e9f8e9125f0b8998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Demo/terrain_layers/Grass_normal_down.terrainlayer using Guid(68e602da48e73564e9f8e9125f0b8998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1dfbb5da32fe5162b42fbc80bd2f557') in 0.013557 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000174 seconds.
-  path: Assets/Import/Texture/Demo/terrain_layers/Grass_darked_down.terrainlayer
-  artifactKey: Guid(8f32cc9883b377b4ebc3538ba838bff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Demo/terrain_layers/Grass_darked_down.terrainlayer using Guid(8f32cc9883b377b4ebc3538ba838bff4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b86c5b51bdca60719de223f11804f57') in 0.012514 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000162 seconds.
-  path: Assets/Import/Texture/Textures/Grass/Grass_lighted/Grass_lighted_up.png
-  artifactKey: Guid(9273b0666f47d5e4e86165bf96cb7404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Textures/Grass/Grass_lighted/Grass_lighted_up.png using Guid(9273b0666f47d5e4e86165bf96cb7404) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fed8cb0f99c92b2c782c53bec5d229dd') in 0.011770 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Import/Texture/Demo/terrain_layers/Grass_corrupted_left.terrainlayer
-  artifactKey: Guid(1969c3a09bbfb164f9683bf61b1f0cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Demo/terrain_layers/Grass_corrupted_left.terrainlayer using Guid(1969c3a09bbfb164f9683bf61b1f0cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d6c9f3e6c4a63dab032fecaa5fe5d66') in 0.014231 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000151 seconds.
-  path: Assets/Import/Chateau/Polytope Studio/Lowpoly Medieval Environments/Sources/Textures/PT_Ground_Grass_Green_01.png
-  artifactKey: Guid(8c75ba30e5f76df4fb30725e4c9bf38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Chateau/Polytope Studio/Lowpoly Medieval Environments/Sources/Textures/PT_Ground_Grass_Green_01.png using Guid(8c75ba30e5f76df4fb30725e4c9bf38a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58d5c2eaafe5a0ee2037da15b5f563b0') in 0.011488 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000194 seconds.
-  path: Assets/Import/Texture/Demo/Materials/Material_Grass_overcorrupted.mat
-  artifactKey: Guid(ba17272ce492ff74a934b37c50250d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Demo/Materials/Material_Grass_overcorrupted.mat using Guid(ba17272ce492ff74a934b37c50250d08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82c9a3e100b28cd2f46047f7640480c4') in 0.014467 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Import/RPGPP_LT/Prefabs/Nature/Vegetation/Grass/rpgpp_lt_grass_small_01a.prefab
-  artifactKey: Guid(00e2e59cbc04eab4a982218df54ce70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/RPGPP_LT/Prefabs/Nature/Vegetation/Grass/rpgpp_lt_grass_small_01a.prefab using Guid(00e2e59cbc04eab4a982218df54ce70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95458ceb89abb434558888698b5f1c4c') in 0.009221 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Import/Texture/Textures/Grass/Grass_normal/Grass_normal_up.png
-  artifactKey: Guid(deb64ef6450ec574db0af67225551acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Textures/Grass/Grass_normal/Grass_normal_up.png using Guid(deb64ef6450ec574db0af67225551acf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '253a790283b4a7df381700e9d8c172f5') in 0.011066 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000201 seconds.
-  path: Assets/Import/Chateau/PolygonKnights/Materials/PolyKnights_Mat_Variation_Snow_To_Grass_Swap.mat
-  artifactKey: Guid(721aadf0358b16248bca382321fdf539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Chateau/PolygonKnights/Materials/PolyKnights_Mat_Variation_Snow_To_Grass_Swap.mat using Guid(721aadf0358b16248bca382321fdf539) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '097e10da31a4a4f26138ca6d3bb3bbcb') in 0.020303 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000153 seconds.
-  path: Assets/Import/Texture/Demo/Materials/Material_Grass_darked.mat
-  artifactKey: Guid(49ca5b6b9bc21464081bc5be2701aca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Demo/Materials/Material_Grass_darked.mat using Guid(49ca5b6b9bc21464081bc5be2701aca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fecdfe04c922823ed7b73d48b34a3860') in 0.014917 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000152 seconds.
-  path: Assets/Import/nature/Nature Pack/Materials/grass_tile_01.mat
-  artifactKey: Guid(8e4cfcbc086602f42aafdcdf1d90bf6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/nature/Nature Pack/Materials/grass_tile_01.mat using Guid(8e4cfcbc086602f42aafdcdf1d90bf6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '004fdc8839fa24b78c38d1e58f8301e5') in 0.015044 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/Import/Texture/Demo/terrain_layers/Grass_corrupted_right.terrainlayer
-  artifactKey: Guid(5a8233d884b35ae4581f8f254c1995be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Demo/terrain_layers/Grass_corrupted_right.terrainlayer using Guid(5a8233d884b35ae4581f8f254c1995be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59d4197984ead76bbc17bf0c220319ce') in 0.023914 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/Import/Texture/Demo/terrain_layers/Grass_normal_left.terrainlayer
-  artifactKey: Guid(8266026e5ca9bc247a41d77e26bb8052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Demo/terrain_layers/Grass_normal_left.terrainlayer using Guid(8266026e5ca9bc247a41d77e26bb8052) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9cf67dae498fcd221223b352da1984f') in 0.026217 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/Import/Texture/Textures/Grass/Grass_normal/Grass_normal_right.png
-  artifactKey: Guid(1d15832a1a6e52b48a0fae0275b130dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Textures/Grass/Grass_normal/Grass_normal_right.png using Guid(1d15832a1a6e52b48a0fae0275b130dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c75a3fbb63ac800398cf0110758cb71') in 0.013486 seconds 
+  Time since last request: 0.000165 seconds.
+  path: Assets/Import/Chateau/PolygonKnights/Prefabs/Characters/Character_Knight_02_Orange.prefab
+  artifactKey: Guid(2f4930b22c943444e856b508d62919b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Chateau/PolygonKnights/Prefabs/Characters/Character_Knight_02_Orange.prefab using Guid(2f4930b22c943444e856b508d62919b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46ac1d521d29d1431c5eea546eab973f') in 0.014541 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000146 seconds.
-  path: Assets/Import/Texture/Textures/Grass/Grass_overcorrupted/Grass_overcorrupted_up.png
-  artifactKey: Guid(fd8c3363a4dd30247bee08b93a86a3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Textures/Grass/Grass_overcorrupted/Grass_overcorrupted_up.png using Guid(fd8c3363a4dd30247bee08b93a86a3a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07300c2d31cdd28b1300e2b2ee6a1d88') in 0.012333 seconds 
+  path: Assets/Import/Chateau/PolygonKnights/Prefabs/Characters/Character_Knight_02_Black.prefab
+  artifactKey: Guid(f9d38fed7b251cb4f9546516bfaa11c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Chateau/PolygonKnights/Prefabs/Characters/Character_Knight_02_Black.prefab using Guid(f9d38fed7b251cb4f9546516bfaa11c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a719938820e06d67d8f042b9b98e582') in 0.014693 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000131 seconds.
-  path: Assets/Musique/_TerrainAutoUpgrade/layer_GrassHillAlbedo3d3aba195e4d26ee.terrainlayer
-  artifactKey: Guid(1d071537a6387b74bb94cb6853d094ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Musique/_TerrainAutoUpgrade/layer_GrassHillAlbedo3d3aba195e4d26ee.terrainlayer using Guid(1d071537a6387b74bb94cb6853d094ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd471f504cc018a09e09d80b3f77d9176') in 0.019226 seconds 
+  Time since last request: 0.000136 seconds.
+  path: Assets/Import/Chateau/PolygonKnights/Prefabs/Characters/Character_Knight_03_Orange.prefab
+  artifactKey: Guid(7cd674477aac5864fb88016585b7e3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Chateau/PolygonKnights/Prefabs/Characters/Character_Knight_03_Orange.prefab using Guid(7cd674477aac5864fb88016585b7e3e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f0cad79322f98913928a0c0d9cce7e6') in 0.015808 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Import/Texture/Textures/Grass/Grass_corrupted/Grass_corrupted_left.png
-  artifactKey: Guid(9f92a1df145a03f4e8cc6de30c1f413a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Textures/Grass/Grass_corrupted/Grass_corrupted_left.png using Guid(9f92a1df145a03f4e8cc6de30c1f413a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2423f60fe929a4c3e760ccd67213fc9') in 0.010763 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Import/Chateau/PolygonKnights/Textures/Texture_01_Swap_Snow_To_Grass.png
-  artifactKey: Guid(33785465bffc048419354578becb06d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Chateau/PolygonKnights/Textures/Texture_01_Swap_Snow_To_Grass.png using Guid(33785465bffc048419354578becb06d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed02a7cc20bda836d9a59a7ee7c0a97c') in 0.009612 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000161 seconds.
-  path: Assets/Import/Texture/Demo/terrain_layers/Grass_lighted_down.terrainlayer
-  artifactKey: Guid(bd09f0681f28b484fb0610ef52f7254c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Demo/terrain_layers/Grass_lighted_down.terrainlayer using Guid(bd09f0681f28b484fb0610ef52f7254c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ed304ced141c4bb733a7d25441b6294') in 0.027413 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000142 seconds.
-  path: Assets/Import/Texture/Demo/Materials/Material_Grass_desatured.mat
-  artifactKey: Guid(40cc89b9c27c19c459d15b79d4211bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Demo/Materials/Material_Grass_desatured.mat using Guid(40cc89b9c27c19c459d15b79d4211bee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '631307bb21d33967fbbd0232b4fcd645') in 0.015650 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000150 seconds.
-  path: Assets/Import/Chateau/Polytope Studio/Lowpoly Medieval Environments/Sources/Meshes/Plants/PT_Grass_01.fbx
-  artifactKey: Guid(6234fe485482da04fbc6bce8b1b71dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Chateau/Polytope Studio/Lowpoly Medieval Environments/Sources/Meshes/Plants/PT_Grass_01.fbx using Guid(6234fe485482da04fbc6bce8b1b71dd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbeb9784e20e01959dafa519519de212') in 0.063200 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/Import/Texture/Demo/terrain_layers/Grass_desatured_up.terrainlayer
-  artifactKey: Guid(3e876ba4c3fbcb44892786b86e12a40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Demo/terrain_layers/Grass_desatured_up.terrainlayer using Guid(3e876ba4c3fbcb44892786b86e12a40d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5bac99283944086df94f61529b5bf7e') in 0.013173 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000139 seconds.
-  path: Assets/Import/Supercyan Free Forest Sample/Prefabs/High Quality/Foliage/Grass/forestpack_foliage_grassPatch_small_2.prefab
-  artifactKey: Guid(b3425777f1700b249a15eea0ea8f0bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Supercyan Free Forest Sample/Prefabs/High Quality/Foliage/Grass/forestpack_foliage_grassPatch_small_2.prefab using Guid(b3425777f1700b249a15eea0ea8f0bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3289889648270e784f3f904010561473') in 0.010870 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000116 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_Mud_01jx2.fbx
-  artifactKey: Guid(8169b22756b98c94eb65672c2f3425d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Meshes/EA_Swamp_Grass_Mud_01jx2.fbx using Guid(8169b22756b98c94eb65672c2f3425d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91ffe37c67c493dd2296a0e0972d5b91') in 0.016351 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/Import/Chateau/PolygonKnights/Models/SM_Env_MountainGrass_02.fbx
-  artifactKey: Guid(61d4366179cb40f4fb7ae0e41b5d090f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Chateau/PolygonKnights/Models/SM_Env_MountainGrass_02.fbx using Guid(61d4366179cb40f4fb7ae0e41b5d090f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39d33619d76c930a08c7cd09b2be604f') in 0.018880 seconds 
+  Time since last request: 0.000196 seconds.
+  path: Assets/Import/Chateau/PolygonKnights/Prefabs/Characters/Character_Soldier_02_Black.prefab
+  artifactKey: Guid(ef3c7a6cdd822654c9ff74c4222fa2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Chateau/PolygonKnights/Prefabs/Characters/Character_Soldier_02_Black.prefab using Guid(ef3c7a6cdd822654c9ff74c4222fa2b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0a080c656c15f8c14835369e1b2bbc1') in 0.014381 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000155 seconds.
-  path: Assets/Import/Texture/Demo/terrain_layers/Grass_bluetint_up.terrainlayer
-  artifactKey: Guid(8539624c71e7a51479eced781f91d967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Demo/terrain_layers/Grass_bluetint_up.terrainlayer using Guid(8539624c71e7a51479eced781f91d967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72652c38bbfe463fb7e738eefee1c017') in 0.012817 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000135 seconds.
-  path: Assets/Import/Texture/Textures/Grass/Grass_bluetint/Grass_bluetint_right.png
-  artifactKey: Guid(d211bc1342827ac44b6b1bd93cf8f969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Textures/Grass/Grass_bluetint/Grass_bluetint_right.png using Guid(d211bc1342827ac44b6b1bd93cf8f969) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '123e34736e21be56efd1a7622dde2492') in 0.009650 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/Import/Texture/Demo/terrain_layers/Grass_darked_left.terrainlayer
-  artifactKey: Guid(13710ded8a4abf1429f52beb35020a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Demo/terrain_layers/Grass_darked_left.terrainlayer using Guid(13710ded8a4abf1429f52beb35020a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8e41e1e65728362b5dfdc18e49ffec2') in 0.017034 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000133 seconds.
-  path: Assets/Import/Texture/Demo/terrain_layers/Grass_desatured_left.terrainlayer
-  artifactKey: Guid(33706b97a412a2b4bb4ec1ef3b9eeb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Demo/terrain_layers/Grass_desatured_left.terrainlayer using Guid(33706b97a412a2b4bb4ec1ef3b9eeb36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ab91da92568f2ba1b799f779ff8ff1f') in 0.014698 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000143 seconds.
-  path: Assets/Import/Texture/Textures/Grass/Grass_bluetint/Grass_bluetint_left.png
-  artifactKey: Guid(4b13c3aa7713124418fd1f17e83a5be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Textures/Grass/Grass_bluetint/Grass_bluetint_left.png using Guid(4b13c3aa7713124418fd1f17e83a5be7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b392cbbeb71043b0d7d5f75479a387ad') in 0.011414 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000157 seconds.
-  path: Assets/Import/Texture/Demo/terrain_layers/Grass_lighted_left.terrainlayer
-  artifactKey: Guid(f090ea60b20d02c4ba801580101c5465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Demo/terrain_layers/Grass_lighted_left.terrainlayer using Guid(f090ea60b20d02c4ba801580101c5465) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '648bdca09a73a22134e47994a06c4c4d') in 0.011559 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000169 seconds.
-  path: Assets/Import/Chateau/Polytope Studio/Lowpoly Medieval Environments/Sources/Materials/PT_Grass_Mat.mat
-  artifactKey: Guid(09473d06882d1414b84b1fdb7a095516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Chateau/Polytope Studio/Lowpoly Medieval Environments/Sources/Materials/PT_Grass_Mat.mat using Guid(09473d06882d1414b84b1fdb7a095516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2de57955aca44f4fe14ca87511d5575') in 0.011464 seconds 
+  path: Assets/Import/Chateau/PolygonKnights/Prefabs/Characters/Character_Knight_01_Black.prefab
+  artifactKey: Guid(507f5dc602b42c549a32a51aa9236bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Chateau/PolygonKnights/Prefabs/Characters/Character_Knight_01_Black.prefab using Guid(507f5dc602b42c549a32a51aa9236bb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '330b570ac854c6380c0b2032a5c3852b') in 0.015096 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000170 seconds.
-  path: Assets/Import/Texture/Textures/Grass/Grass_normal/Grass_normal_left.png
-  artifactKey: Guid(7bd486cf36b61954d9012c6704ab80a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Textures/Grass/Grass_normal/Grass_normal_left.png using Guid(7bd486cf36b61954d9012c6704ab80a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c857bda5133cf312384ccd6b9a6e28cb') in 0.010737 seconds 
+  path: Assets/Import/Chateau/PolygonKnights/Prefabs/Characters/Character_Knight_01_Blue.prefab
+  artifactKey: Guid(b81ba67e44b1b174d9ef4491f146ee35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Chateau/PolygonKnights/Prefabs/Characters/Character_Knight_01_Blue.prefab using Guid(b81ba67e44b1b174d9ef4491f146ee35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b18372b3f0c5200e70abc3876e1c487') in 0.013622 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000146 seconds.
-  path: Assets/Import/Texture/Textures/Grass/Grass_lighted/Grass_lighted_down.png
-  artifactKey: Guid(6e3abed3edda0ae4b876a53ee95f7d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Textures/Grass/Grass_lighted/Grass_lighted_down.png using Guid(6e3abed3edda0ae4b876a53ee95f7d37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c4d7f2b03e92004604ce8e6d30d0c96') in 0.009160 seconds 
+  Time since last request: 0.000173 seconds.
+  path: Assets/Import/Chateau/PolygonKnights/Prefabs/Characters/Character_Soldier_02_Orange.prefab
+  artifactKey: Guid(3b8c3b6dee6c92d4bb9953c1bbede39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Chateau/PolygonKnights/Prefabs/Characters/Character_Soldier_02_Orange.prefab using Guid(3b8c3b6dee6c92d4bb9953c1bbede39b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3498326e205d9986f4e1bb2275f21189') in 0.015463 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000154 seconds.
-  path: Assets/Import/Texture/Demo/Materials/Material_Grass_lighted.mat
-  artifactKey: Guid(b720916f84c05c445a1e56e7d5ac7c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Demo/Materials/Material_Grass_lighted.mat using Guid(b720916f84c05c445a1e56e7d5ac7c34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '230de4117ac80fec0b46e20867c50678') in 0.014939 seconds 
+  Time since last request: 0.000179 seconds.
+  path: Assets/Import/Chateau/PolygonKnights/Prefabs/Characters/Character_Knight_02_Yellow.prefab
+  artifactKey: Guid(b2d86ece2910c424eb07c39d2772e780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Chateau/PolygonKnights/Prefabs/Characters/Character_Knight_02_Yellow.prefab using Guid(b2d86ece2910c424eb07c39d2772e780) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fe51d2bf0fdeac879af72a632d88909') in 0.015139 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000176 seconds.
-  path: Assets/Import/Texture/Textures/Grass/Grass_overcorrupted/Grass_overcorrupted_right.png
-  artifactKey: Guid(7c336b3b2ecc2e648ae85a73fb3a537f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Textures/Grass/Grass_overcorrupted/Grass_overcorrupted_right.png using Guid(7c336b3b2ecc2e648ae85a73fb3a537f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95f2ea9976dc14213b7feb13257d9fef') in 0.024954 seconds 
+  Time since last request: 0.000163 seconds.
+  path: Assets/Import/Chateau/PolygonKnights/Prefabs/Characters/Character_Soldier_01_Orange.prefab
+  artifactKey: Guid(de9acb9f71f3b514697b1065f1065e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Chateau/PolygonKnights/Prefabs/Characters/Character_Soldier_01_Orange.prefab using Guid(de9acb9f71f3b514697b1065f1065e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '09e5646818f17c387114643946362eb6') in 0.014591 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000137 seconds.
-  path: Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_Mud_01jx1_PRE.prefab
-  artifactKey: Guid(30e752a840a184e4a89e86ce4c6659c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/EmaceArt/NecroPoly Free/Prefabs/Nature/EA_Swamp_Grass_Mud_01jx1_PRE.prefab using Guid(30e752a840a184e4a89e86ce4c6659c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14f3d8f569f720470591716c2f983443') in 0.011481 seconds 
+  Time since last request: 0.000169 seconds.
+  path: Assets/Import/Chateau/PolygonKnights/Prefabs/Characters/Character_Soldier_01_Blue.prefab
+  artifactKey: Guid(aa03ca6a3953ccc4397f5f35d2aa0a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Chateau/PolygonKnights/Prefabs/Characters/Character_Soldier_01_Blue.prefab using Guid(aa03ca6a3953ccc4397f5f35d2aa0a6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912996b65b657abd9d113035f67842f7') in 0.013939 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000164 seconds.
-  path: Assets/Import/Texture/Demo/terrain_layers/Grass_overcorrupted_down.terrainlayer
-  artifactKey: Guid(082119606917ad0458b90f16cebed0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Demo/terrain_layers/Grass_overcorrupted_down.terrainlayer using Guid(082119606917ad0458b90f16cebed0e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c76835b22007ab0e2b1f7a5cb2b2a154') in 0.013226 seconds 
+  Time since last request: 0.000173 seconds.
+  path: Assets/Import/Chateau/PolygonKnights/Prefabs/Characters/Character_Knight_01_Yellow.prefab
+  artifactKey: Guid(359a3881d0d0e4143a67b57d6482e854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Chateau/PolygonKnights/Prefabs/Characters/Character_Knight_01_Yellow.prefab using Guid(359a3881d0d0e4143a67b57d6482e854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '047d51ad1543ee227717c42b6ec3a791') in 0.013344 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Import/Texture/Demo/Materials/Material_Grass_corrupted.mat
-  artifactKey: Guid(33eef089624823f4f9b1d6531235b3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Demo/Materials/Material_Grass_corrupted.mat using Guid(33eef089624823f4f9b1d6531235b3cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb5ef2ed934b9b5f733166e7f0ff218') in 0.016992 seconds 
+  Time since last request: 252.940376 seconds.
+  path: Assets/Prefabe/PNJ/Stay/Archer.prefab
+  artifactKey: Guid(0284141238daf6f49be6d3b207370b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabe/PNJ/Stay/Archer.prefab using Guid(0284141238daf6f49be6d3b207370b4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8958814f8412cbdd761a1992d6c2d466') in 0.070058 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000148 seconds.
-  path: Assets/Import/Texture/Demo/terrain_layers/Grass_lighted_right.terrainlayer
-  artifactKey: Guid(0cc50b69c88e8434eab1b49d54585984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Demo/terrain_layers/Grass_lighted_right.terrainlayer using Guid(0cc50b69c88e8434eab1b49d54585984) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb2ef031ec80bd93cbcb6e1dd8b3d8d') in 0.012207 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/Import/Chateau/Polytope Studio/Lowpoly Medieval Environments/Prefabs/Plants/PT_Grass_01.prefab
-  artifactKey: Guid(d0a220c4e9303914d88d417444a10971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Chateau/Polytope Studio/Lowpoly Medieval Environments/Prefabs/Plants/PT_Grass_01.prefab using Guid(d0a220c4e9303914d88d417444a10971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cbef90b4c71d2c92d22cda53ada3735') in 0.009652 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Import/Texture/Textures/Grass/Grass_darked/Grass_darked_right.png
-  artifactKey: Guid(ec7bab56bfdc3d147b9e1fda8c12082d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Textures/Grass/Grass_darked/Grass_darked_right.png using Guid(ec7bab56bfdc3d147b9e1fda8c12082d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd22337a287a488b1e6fc5cd59cb7858e') in 0.010579 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000180 seconds.
-  path: Assets/Import/Texture/Textures/Grass/Grass_desatured/Grass_desatured_right.png
-  artifactKey: Guid(8cd3f7acfe19d4a4cb849c2b2ab2172a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Textures/Grass/Grass_desatured/Grass_desatured_right.png using Guid(8cd3f7acfe19d4a4cb849c2b2ab2172a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02e4afa0da6012d0860a488eba245350') in 0.009532 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000185 seconds.
-  path: Assets/Import/nature/Nature Pack/Textures/grass_tile_01d.tga
-  artifactKey: Guid(5325d76787063d348bd20518c3ff44c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/nature/Nature Pack/Textures/grass_tile_01d.tga using Guid(5325d76787063d348bd20518c3ff44c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0accd95d18642ca2d2ae0caaa00dc2f4') in 0.009724 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000155 seconds.
-  path: Assets/Import/RPGPP_LT/Prefabs/Nature/Vegetation/Grass/rpgpp_lt_grass_small_01b.prefab
-  artifactKey: Guid(e88b7bb02ae149940a5a0cddf34fe370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/RPGPP_LT/Prefabs/Nature/Vegetation/Grass/rpgpp_lt_grass_small_01b.prefab using Guid(e88b7bb02ae149940a5a0cddf34fe370) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f12d166995ad36c26eee839b28ae582') in 0.009341 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000156 seconds.
-  path: Assets/Import/Texture/Demo/terrain_layers/Grass_overcorrupted_right.terrainlayer
-  artifactKey: Guid(5b0e36acd84931c42874694d458340e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Demo/terrain_layers/Grass_overcorrupted_right.terrainlayer using Guid(5b0e36acd84931c42874694d458340e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81347e91d4ea713f27bc034eda8dcd97') in 0.015025 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000127 seconds.
-  path: Assets/Import/Supercyan Free Forest Sample/Models/Foliage/Grass/forestpack_foliage_grassPatch_small_1.fbx
-  artifactKey: Guid(729791b8cf5dd874f94b1d07407161bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Supercyan Free Forest Sample/Models/Foliage/Grass/forestpack_foliage_grassPatch_small_1.fbx using Guid(729791b8cf5dd874f94b1d07407161bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ade928f983f9470500093f9d880b884') in 0.012831 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000167 seconds.
-  path: Assets/Import/Texture/Demo/terrain_layers/Grass_darked_up.terrainlayer
-  artifactKey: Guid(4a7af20f1c12eed44b51c5f085942c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Demo/terrain_layers/Grass_darked_up.terrainlayer using Guid(4a7af20f1c12eed44b51c5f085942c21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7945e47091dd081d1bce757b130b8f3c') in 0.015042 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000186 seconds.
-  path: Assets/Import/RPGPP_LT/Prefabs/Nature/Terrain/rpgpp_lt_terrain_grass_01.prefab
-  artifactKey: Guid(bdf8e7438a7816543998181bd3067573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/RPGPP_LT/Prefabs/Nature/Terrain/rpgpp_lt_terrain_grass_01.prefab using Guid(bdf8e7438a7816543998181bd3067573) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a20ff265017a8531243123bf016d6e0') in 0.009907 seconds 
+  Time since last request: 0.000159 seconds.
+  path: Assets/Prefabe/PNJ/Stay/Epee.prefab
+  artifactKey: Guid(d437355a9ba5bdf4ab7ed4104a17d7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabe/PNJ/Stay/Epee.prefab using Guid(d437355a9ba5bdf4ab7ed4104a17d7e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e912f94c599e3c1219be2f1be18f97e') in 0.048820 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000145 seconds.
-  path: Assets/Import/nature/Nature Pack/Textures/Grass_Plane_01c.tif
-  artifactKey: Guid(5f9e17e893f048d408706cd920e93cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/nature/Nature Pack/Textures/Grass_Plane_01c.tif using Guid(5f9e17e893f048d408706cd920e93cc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '496c8126f86893e174d55dcc340f011b') in 0.036663 seconds 
+  path: Assets/Prefabe/PNJ/Stay/Mage.prefab
+  artifactKey: Guid(96840cec2ba6546479c67740d38d7737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabe/PNJ/Stay/Mage.prefab using Guid(96840cec2ba6546479c67740d38d7737) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb96e89884a136a29e2e6a5996fc27da') in 0.046004 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000195 seconds.
-  path: Assets/Import/Texture/Demo/terrain_layers/Grass_overcorrupted_left.terrainlayer
-  artifactKey: Guid(d5ab6a74ddc1fad42bd1a498812697f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Texture/Demo/terrain_layers/Grass_overcorrupted_left.terrainlayer using Guid(d5ab6a74ddc1fad42bd1a498812697f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bd82f8cfff6153a40177f7f3cb390bd') in 0.013160 seconds 
+  Time since last request: 0.000199 seconds.
+  path: Assets/Prefabe/PNJ/Stay/PNJ Stay.prefab
+  artifactKey: Guid(9ceea3d20e0afcc4ebc1ef094bb731b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabe/PNJ/Stay/PNJ Stay.prefab using Guid(9ceea3d20e0afcc4ebc1ef094bb731b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02d902d9641f4db06fe77a6f1cdf768a') in 0.045920 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000187 seconds.
-  path: Assets/Musique/Footstep Surface Reader/Demo scene/textures/layer_GrassHillAlbedo(15.000,15.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer
-  artifactKey: Guid(15b8ed7b0e2d2d1429bf3dcdba1aa833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Musique/Footstep Surface Reader/Demo scene/textures/layer_GrassHillAlbedo(15.000,15.000)(0.000,0.000)(0.000,0.000,0.000),0.000,0.000.terrainlayer using Guid(15b8ed7b0e2d2d1429bf3dcdba1aa833) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d906b7a556bf4e75204bdea364d5d8b') in 0.019470 seconds 
+  Time since last request: 0.000155 seconds.
+  path: Assets/Prefabe/PNJ/Stay/Tank.prefab
+  artifactKey: Guid(9ab5f0a5c7de80845881daa865c48e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabe/PNJ/Stay/Tank.prefab using Guid(9ab5f0a5c7de80845881daa865c48e04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '70b4bcfabc324c92ebc99d3f1112ccfd') in 0.046345 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000212 seconds.
-  path: Assets/Import/Chateau/Polytope Studio/Lowpoly Medieval Environments/Sources/Textures/PT_Grass_01.png
-  artifactKey: Guid(1b92b31acbcdce24ba9dc6d01dbc2e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Chateau/Polytope Studio/Lowpoly Medieval Environments/Sources/Textures/PT_Grass_01.png using Guid(1b92b31acbcdce24ba9dc6d01dbc2e84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95d44f8e17e1ee549a820476ca01df95') in 0.009529 seconds 
+  Time since last request: 0.000151 seconds.
+  path: Assets/Prefabe/PNJ/Stay/Double Epee.prefab
+  artifactKey: Guid(31626de3f0ce0e94999326e4f8510e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabe/PNJ/Stay/Double Epee.prefab using Guid(31626de3f0ce0e94999326e4f8510e4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0241735476ba8953c420a97ccf6d775') in 0.029552 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 25.587041 seconds.
-  path: Assets/Import/Supercyan Free Forest Sample/Prefabs/High Quality/Foliage/Grass/forestpack_foliage_grassPatch_small_1.prefab
-  artifactKey: Guid(791c30b04e8fc1e4fbf198c410a652e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Supercyan Free Forest Sample/Prefabs/High Quality/Foliage/Grass/forestpack_foliage_grassPatch_small_1.prefab using Guid(791c30b04e8fc1e4fbf198c410a652e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9bee0c67b82104e560a0078ad9dd5c16') in 0.011212 seconds 
+  Time since last request: 171.414427 seconds.
+  path: Assets/Prefabe/PNJ/Stay/Rien.prefab
+  artifactKey: Guid(965e8354fa557d341b0f84de22bcfceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabe/PNJ/Stay/Rien.prefab using Guid(965e8354fa557d341b0f84de22bcfceb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebc038aed8209699154856c3be0e6dad') in 0.045164 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 7.889050 seconds.
-  path: Assets/Import/Supercyan Free Forest Sample/Prefabs/High Quality/Foliage/Grass/forestpack_foliage_grassPatch_small_2.prefab
-  artifactKey: Guid(b3425777f1700b249a15eea0ea8f0bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Supercyan Free Forest Sample/Prefabs/High Quality/Foliage/Grass/forestpack_foliage_grassPatch_small_2.prefab using Guid(b3425777f1700b249a15eea0ea8f0bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae3a26fe6684a61aeb0efebf5e82d8dd') in 0.010654 seconds 
+  Time since last request: 84.857896 seconds.
+  path: Assets/Import/Perso/Material
+  artifactKey: Guid(d84532d55152d3e419021b2df6538d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Perso/Material using Guid(d84532d55152d3e419021b2df6538d04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d41545d897c0c2aedcf03c500e0e075') in 0.004770 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 897.195305 seconds.
-  path: Assets/Prefabe/UI
-  artifactKey: Guid(4739f8dbe122380469a0878f64da650a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabe/UI using Guid(4739f8dbe122380469a0878f64da650a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ed75ea6632ae44761751e2e4e5e72f7') in 0.005868 seconds 
+  Time since last request: 0.079722 seconds.
+  path: Assets/Import/Perso/Material/character.physicMaterial
+  artifactKey: Guid(f5aca5c2225fdd1408ebab72e98e43e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Perso/Material/character.physicMaterial using Guid(f5aca5c2225fdd1408ebab72e98e43e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '218228e1274ce9f65574fdc29faeeec0') in 0.009657 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.685791 seconds.
-  path: Assets/Prefabe/Maps/1.prefab
-  artifactKey: Guid(af7042c05e4f38241a1d338c5f43a751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabe/Maps/1.prefab using Guid(af7042c05e4f38241a1d338c5f43a751) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '881853b2a3f2a914b5815ca211b4cf67') in 0.103974 seconds 
+  Time since last request: 0.000160 seconds.
+  path: Assets/Import/Perso/Material/PolyArtMat.mat
+  artifactKey: Guid(e46b1dc4941ed174e87f172cb5e65374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Perso/Material/PolyArtMat.mat using Guid(e46b1dc4941ed174e87f172cb5e65374) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9c48eb160917a8967f0a01fd8616974') in 0.070294 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 48.922645 seconds.
-  path: Assets/Prefabe/Maps/Village
-  artifactKey: Guid(a8d477f890b7df248a8319e62e9b9638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Prefabe/Maps/Village using Guid(a8d477f890b7df248a8319e62e9b9638) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '481f04346299cf24264e53d41cfb16d9') in 0.001950 seconds 
+  Time since last request: 0.000155 seconds.
+  path: Assets/Import/Perso/Material/PolyArtMaskTint.mat
+  artifactKey: Guid(67ba5db7871968141908f7c263241b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Perso/Material/PolyArtMaskTint.mat using Guid(67ba5db7871968141908f7c263241b5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '507db85a21648a6449c3769d71a0dcd3') in 0.045729 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Import/Perso/Material/Skybox_Mat.mat
+  artifactKey: Guid(dd12ddc72d8f80b498259730bb39d7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Perso/Material/Skybox_Mat.mat using Guid(dd12ddc72d8f80b498259730bb39d7f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1568e1679f210b6821d1f8b98cc3e411') in 0.047306 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Import/Perso/Material/Stage 2.mat
+  artifactKey: Guid(7f82c999d87a7664198abc1925cfe3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Perso/Material/Stage 2.mat using Guid(7f82c999d87a7664198abc1925cfe3d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a1a359d20e91392a9b2d171c58bdd09') in 0.039620 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.284590 seconds.
+  path: Assets/Import/Perso/Material/Autre.mat
+  artifactKey: Guid(885fe42247702d848b4155b324d89342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Perso/Material/Autre.mat using Guid(885fe42247702d848b4155b324d89342) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'deb6ca016343ab852d7944a1181f053e') in 0.040945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 376.592826 seconds.
+  path: Assets/Prefabe/Maps/Village/Desert.prefab
+  artifactKey: Guid(9274b8a9215114f41a10e0395e4e9ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabe/Maps/Village/Desert.prefab using Guid(9274b8a9215114f41a10e0395e4e9ff5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Asset 'Spitnick': Transition 'Attaque -> IdleNormal' in state 'Attaque' doesn't have an Exit Time or any condition, transition will be ignored
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Editor/Src/Animation/StateMachine.cpp line 1847]
+
+ -> (artifact id: '061575eddab23f2dfecbd69e57384e31') in 0.103484 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Prefabe/Maps/Village/Village.prefab
+  artifactKey: Guid(71b69fc12914370419f1e061698b04ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabe/Maps/Village/Village.prefab using Guid(71b69fc12914370419f1e061698b04ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb122ef0322f6de2e6eda9e92ddf5e3b') in 0.170109 seconds 
 AssetImportWorkerClient::OnTransportError - code=2 error=End of file
