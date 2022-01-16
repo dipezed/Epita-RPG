@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 7462812810081092671}
   - component: {fileID: 7462812810080093951}
   - component: {fileID: 650084213123185203}
-  - component: {fileID: -6350112620657988707}
   m_Layer: 0
   m_Name: Flower_04
   m_TagString: Untagged
@@ -98,22 +97,3 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: dd40dfeedde81f644a4cd1b075fa2a9d, type: 3}
---- !u!205 &-6350112620657988707
-LODGroup:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7462812810082097215}
-  serializedVersion: 2
-  m_LocalReferencePoint: {x: 0, y: 0, z: 0}
-  m_Size: 1
-  m_FadeMode: 0
-  m_AnimateCrossFading: 0
-  m_LastLODIsBillboard: 0
-  m_LODs:
-  - screenRelativeHeight: 0.04724515
-    fadeTransitionWidth: 0
-    renderers:
-    - renderer: {fileID: 7462812810080093951}
-  m_Enabled: 1
