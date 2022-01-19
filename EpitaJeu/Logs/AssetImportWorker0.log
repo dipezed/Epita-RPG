@@ -15,11 +15,11 @@ C:/Users/Dimit/Documents/GitHub/Epita-RPG/EpitaJeu
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-52516
+52575
 Successfully changed project path to: C:/Users/Dimit/Documents/GitHub/Epita-RPG/EpitaJeu
 C:/Users/Dimit/Documents/GitHub/Epita-RPG/EpitaJeu
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 129.34 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 131.34 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.1.21f1 (f2d5d3c59f8c)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.1.21f1/Editor/Data/Resources/UnitySubsystems
@@ -35,37 +35,37 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.1.21f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.1.21f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.1.21f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56700
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56176
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.1.21f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.001636 seconds.
+Registered in 0.001598 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 130.53 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 130.32 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.129 seconds
+- Completed reload, in  1.075 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1129ms)
+	ReloadAssembly (1076ms)
 		BeginReloadAssembly (51ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (441ms)
+		EndReloadAssembly (430ms)
 			LoadAssemblies (49ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (135ms)
+			SetupTypeCache (130ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (243ms)
+			SetupLoadedEditorAssemblies (239ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (131ms)
+				RefreshPlugins (130ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (81ms)
+				ProcessInitializeOnLoadAttributes (78ms)
 				ProcessInitializeOnLoadMethodAttributes (24ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
@@ -73,53 +73,53 @@ Domain Reload Profiling:
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004466 seconds.
+Registered in 0.004494 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Dimit\Documents\GitHub\Epita-RPG\EpitaJeu\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Dimit\Documents\GitHub\Epita-RPG\EpitaJeu\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 134.61 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 140.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.147 seconds
+- Completed reload, in  1.134 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1147ms)
-		BeginReloadAssembly (133ms)
+	ReloadAssembly (1135ms)
+		BeginReloadAssembly (132ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (962ms)
-			LoadAssemblies (82ms)
+		EndReloadAssembly (950ms)
+			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (312ms)
+			SetupTypeCache (306ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (431ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (435ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (3ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (135ms)
+				RefreshPlugins (141ms)
 				BeforeProcessingInitializeOnLoad (82ms)
-				ProcessInitializeOnLoadAttributes (201ms)
+				ProcessInitializeOnLoadAttributes (199ms)
 				ProcessInitializeOnLoadMethodAttributes (4ms)
 				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.04 seconds
-Refreshing native plugins compatible for Editor in 1.19 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.20 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 4474 Unused Serialized files (Serialized files now loaded: 0)
 System memory in use before: 207.0 MB.
 System memory in use after: 207.2 MB.
 
 Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 4951.
-Total: 3.514100 ms (FindLiveObjects: 0.334400 ms CreateObjectMapping: 0.132200 ms MarkObjects: 2.945100 ms  DeleteObjects: 0.101500 ms)
+Total: 3.561300 ms (FindLiveObjects: 0.233600 ms CreateObjectMapping: 0.107600 ms MarkObjects: 3.114200 ms  DeleteObjects: 0.104700 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -133,71 +133,144 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Import/village/Scenes
-  artifactKey: Guid(8dae08cc9b5734b4c9efc26833f90341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/village/Scenes using Guid(8dae08cc9b5734b4c9efc26833f90341) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a95500f4e0aa4a65885bf28af51ecfc') in 0.010262 seconds 
+  path: Assets/Prefabe/Maps/Decort/Camps.prefab
+  artifactKey: Guid(90e1bae313bd3b24bafdd4efe20f8549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabe/Maps/Decort/Camps.prefab using Guid(90e1bae313bd3b24bafdd4efe20f8549) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75bcdb491e5754085ba427077afb4ff1') in 0.393776 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000159 seconds.
-  path: Assets/Import/Blink/Art
-  artifactKey: Guid(4a2367ad789b59346a5a0e4e6ff1beed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Import/Blink/Art using Guid(4a2367ad789b59346a5a0e4e6ff1beed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c22ee7fb9b7c20669a5ae3a1ef5593') in 0.005790 seconds 
+  Time since last request: 194.506430 seconds.
+  path: Assets/Prefabe/Items/casque.prefab
+  artifactKey: Guid(078668f83d7b7ae45b5b1cb61a30ec76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabe/Items/casque.prefab using Guid(078668f83d7b7ae45b5b1cb61a30ec76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'daa559d62c8351f35bedfb3e73cfe8e2') in 0.037538 seconds 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.005100 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Dimit\Documents\GitHub\Epita-RPG\EpitaJeu\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Dimit\Documents\GitHub\Epita-RPG\EpitaJeu\Library\PackageCache\com.unity.visualscripting@1.6.1\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.17 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.946 seconds
-Domain Reload Profiling:
-	ReloadAssembly (946ms)
-		BeginReloadAssembly (117ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (775ms)
-			LoadAssemblies (81ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (316ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (261ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (61ms)
-				ProcessInitializeOnLoadAttributes (184ms)
-				ProcessInitializeOnLoadMethodAttributes (4ms)
-				AfterProcessingInitializeOnLoad (6ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 1.21 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4391 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 199.1 MB.
-System memory in use after: 199.4 MB.
-
-Unloading 16 unused Assets to reduce memory usage. Loaded Objects now: 4953.
-Total: 3.520500 ms (FindLiveObjects: 0.320000 ms CreateObjectMapping: 0.109400 ms MarkObjects: 3.071400 ms  DeleteObjects: 0.018700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-AssetImportWorkerClient::OnTransportError - code=2 error=End of file
+Received Import Request.
+  Time since last request: 0.000222 seconds.
+  path: Assets/Import/Chateau/PolygonKnights/Prefabs/Buildings/Snow/SM_Bld_Castle_Door_01_Snow.prefab
+  artifactKey: Guid(7af619afd99c7f840908922c2a1356f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Chateau/PolygonKnights/Prefabs/Buildings/Snow/SM_Bld_Castle_Door_01_Snow.prefab using Guid(7af619afd99c7f840908922c2a1356f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '557585686c2d4d2b13b2a85a33093ffc') in 0.015063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000122 seconds.
+  path: Assets/Import/Chateau/PolygonKnights/Prefabs/Buildings/Snow/SM_Bld_Castle_Tower_01_Snow.prefab
+  artifactKey: Guid(4adcda4b247da3045975333b10813005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Chateau/PolygonKnights/Prefabs/Buildings/Snow/SM_Bld_Castle_Tower_01_Snow.prefab using Guid(4adcda4b247da3045975333b10813005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6879e393f7db0613112e11ac34298c87') in 0.014504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000144 seconds.
+  path: Assets/Import/Chateau/PolygonKnights/Prefabs/Buildings/Snow/SM_Bld_Castle_Roof_Spire_01_Snow.prefab
+  artifactKey: Guid(fb1c5e78ea65052439ebf76d0b3377ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Chateau/PolygonKnights/Prefabs/Buildings/Snow/SM_Bld_Castle_Roof_Spire_01_Snow.prefab using Guid(fb1c5e78ea65052439ebf76d0b3377ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08a0fae2eecf4ea1e980e93b6b52b936') in 0.014837 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000186 seconds.
+  path: Assets/Import/2monstre/Polygon Monster Vol.1 -  Low Poly 3D RPG Model/1003/1003.fbx
+  artifactKey: Guid(39cdf7cc728bd1944a3050ef99a4e6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/2monstre/Polygon Monster Vol.1 -  Low Poly 3D RPG Model/1003/1003.fbx using Guid(39cdf7cc728bd1944a3050ef99a4e6c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e02f537340650e53a52e643dab12453f') in 0.159933 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.160580 seconds.
+  path: Assets/Import/Chateau/PolygonKnights/Prefabs/Buildings/Snow/SM_Bld_Castle_Tower_Round_Top_01_Snow.prefab
+  artifactKey: Guid(a860a8efd9a034241b205a8ceaa511f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Chateau/PolygonKnights/Prefabs/Buildings/Snow/SM_Bld_Castle_Tower_Round_Top_01_Snow.prefab using Guid(a860a8efd9a034241b205a8ceaa511f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c18a793d893e76d3a6a09bb8a79c6fe') in 0.013616 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.298751 seconds.
+  path: Assets/Import/Chateau/PolygonKnights/Prefabs/Buildings/Snow/SM_Bld_Castle_Tower_Top_01_Snow.prefab
+  artifactKey: Guid(bfccd2d26f986ee43bc69f48b20da058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Chateau/PolygonKnights/Prefabs/Buildings/Snow/SM_Bld_Castle_Tower_Top_01_Snow.prefab using Guid(bfccd2d26f986ee43bc69f48b20da058) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65eaba8155820bc68431489f39b33f9') in 0.017577 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Import/Chateau/PolygonKnights/Prefabs/Buildings/Snow/SM_Bld_Castle_Tower_Wall_Top_01_Snow.prefab
+  artifactKey: Guid(2bacf0e47afcb564e8dc7db24e7d7393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Chateau/PolygonKnights/Prefabs/Buildings/Snow/SM_Bld_Castle_Tower_Wall_Top_01_Snow.prefab using Guid(2bacf0e47afcb564e8dc7db24e7d7393) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd72eb505cbaf82d1ea2a56c45f703e') in 0.015398 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.564076 seconds.
+  path: Assets/Import/Chateau/PolygonKnights/Prefabs/Buildings/Snow/SM_Bld_Castle_Wall_01_Snow.prefab
+  artifactKey: Guid(f9d80e9783c282b48af313441bd0dd14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Chateau/PolygonKnights/Prefabs/Buildings/Snow/SM_Bld_Castle_Wall_01_Snow.prefab using Guid(f9d80e9783c282b48af313441bd0dd14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '809c39d580dff1151f658d79b161de0c') in 0.012874 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005556 seconds.
+  path: Assets/Import/Chateau/PolygonKnights/Prefabs/Buildings/Snow/SM_Bld_Castle_Wall_Gate_01_Snow.prefab
+  artifactKey: Guid(2a05301514eb7a445a766ca5c39a0b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Chateau/PolygonKnights/Prefabs/Buildings/Snow/SM_Bld_Castle_Wall_Gate_01_Snow.prefab using Guid(2a05301514eb7a445a766ca5c39a0b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd09e4b8c12ecb8cddcb362fd7f96fa85') in 0.013959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.047944 seconds.
+  path: Assets/Import/Chateau/PolygonKnights/Prefabs/Buildings/Snow/SM_Bld_Castle_Wood_Battlement_01_Snow.prefab
+  artifactKey: Guid(1fd808dd3f00d6344b3b17b972d5d353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Chateau/PolygonKnights/Prefabs/Buildings/Snow/SM_Bld_Castle_Wood_Battlement_01_Snow.prefab using Guid(1fd808dd3f00d6344b3b17b972d5d353) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b09c1b0f2562bb6ac4b557f18bb8985') in 0.015031 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000138 seconds.
+  path: Assets/Import/Chateau/PolygonKnights/Prefabs/Buildings/Snow/SM_Bld_Castle_Wood_Battlement_02_Snow.prefab
+  artifactKey: Guid(4b857ef22aa57b949874a7ff0c4b1b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Chateau/PolygonKnights/Prefabs/Buildings/Snow/SM_Bld_Castle_Wood_Battlement_02_Snow.prefab using Guid(4b857ef22aa57b949874a7ff0c4b1b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae1dc494a4edc9a03962ad35b6e61cad') in 0.016088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000152 seconds.
+  path: Assets/Import/Chateau/PolygonKnights/Prefabs/Buildings/Snow/SM_Bld_Castle_Wood_Battlement_03_Snow.prefab
+  artifactKey: Guid(640bffd7ae59f134daee7763cf8e2c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Chateau/PolygonKnights/Prefabs/Buildings/Snow/SM_Bld_Castle_Wood_Battlement_03_Snow.prefab using Guid(640bffd7ae59f134daee7763cf8e2c5c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d18d554748c47965a867c52c941653f') in 0.014913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Import/Chateau/PolygonKnights/Prefabs/Buildings/Snow/SM_Bld_Castle_Wood_Battlement_04_Snow.prefab
+  artifactKey: Guid(2827071aaa3d60e44acad5b4d5ff00c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Chateau/PolygonKnights/Prefabs/Buildings/Snow/SM_Bld_Castle_Wood_Battlement_04_Snow.prefab using Guid(2827071aaa3d60e44acad5b4d5ff00c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6322d02992d9a08afbfd1072136e382') in 0.015098 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000188 seconds.
+  path: Assets/Import/Chateau/PolygonKnights/Prefabs/Buildings/Snow/SM_Bld_Castle_Wood_Detal_01_Snow.prefab
+  artifactKey: Guid(e04f83788471d3041926f901b972831c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Chateau/PolygonKnights/Prefabs/Buildings/Snow/SM_Bld_Castle_Wood_Detal_01_Snow.prefab using Guid(e04f83788471d3041926f901b972831c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de425671392afa78515a061a068d509b') in 0.020095 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000182 seconds.
+  path: Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wood_Detal_01_Convex.asset
+  artifactKey: Guid(841cc9cd5674fd44fa771af87b575477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wood_Detal_01_Convex.asset using Guid(841cc9cd5674fd44fa771af87b575477) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2036d42e3755e4919a88b8a770a8f81') in 0.019338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000169 seconds.
+  path: Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wood_Battlement_04_Snow_Convex.asset
+  artifactKey: Guid(cf41f8533f34690429f076e319d3997c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wood_Battlement_04_Snow_Convex.asset using Guid(cf41f8533f34690429f076e319d3997c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73a2dc0205fc464bd13afa9ae9671ea5') in 0.013037 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wood_Detal_01_Snow_Convex.asset
+  artifactKey: Guid(a569aa4025e4e86438b4e14441f2b807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wood_Detal_01_Snow_Convex.asset using Guid(a569aa4025e4e86438b4e14441f2b807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2747722bfeb66276c33ef388e035d614') in 0.018778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000132 seconds.
+  path: Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wood_Battlement_04_Snow.fbx
+  artifactKey: Guid(de185b75f9c377b4eb47ee473d323b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wood_Battlement_04_Snow.fbx using Guid(de185b75f9c377b4eb47ee473d323b49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7a69f08d53524084b3d12d0b3ce682c') in 0.021188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000151 seconds.
+  path: Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wood_Detal_01.fbx
+  artifactKey: Guid(86bf74c81d504bb469422ce2cc07b7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wood_Detal_01.fbx using Guid(86bf74c81d504bb469422ce2cc07b7b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37e3822bc5919147e6301e4c3b263b25') in 0.017230 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wood_Detal_01_Snow.fbx
+  artifactKey: Guid(5a04a5fcdd740f145a2e1e9b8085831c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Import/Chateau/PolygonKnights/Models/SM_Bld_Castle_Wood_Detal_01_Snow.fbx using Guid(5a04a5fcdd740f145a2e1e9b8085831c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '835520a784c81efd23774e2a7c9a4ef1') in 0.018781 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.695006 seconds.
+  path: Assets/Prefabe/Village/ville 1.prefab
+  artifactKey: Guid(201372aa180e48b4ea8259c1415bee8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabe/Village/ville 1.prefab using Guid(201372aa180e48b4ea8259c1415bee8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '964daeaabf8b07b2fa36bfbe79249e21') in 0.201215 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000161 seconds.
+  path: Assets/Prefabe/Village/Ville.prefab
+  artifactKey: Guid(7baf2c30be42d6c47b361109df51205f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabe/Village/Ville.prefab using Guid(7baf2c30be42d6c47b361109df51205f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4dfda12d96af090300fb284153c2cc3a') in 0.077113 seconds 
