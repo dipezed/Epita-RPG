@@ -17,6 +17,8 @@ public class PNJia : MonoBehaviour
     public int acc = 1; // 1 si il fait A-> B et 2 si il fait B -> A
 
     public AudioSource audio;
+
+    public bool patrouille = true;
     
 
     void Start()
@@ -39,31 +41,44 @@ public class PNJia : MonoBehaviour
 
     public IEnumerator Destination()
     {
-        if (loc == waypoint.transform.childCount)
-        {            
-            acc = -1;
-            wait = true;
-            animator.SetFloat("Speed", 0);
-            audio.enabled = false;
-            yield return new WaitForSeconds(3);
-            wait = false;
-        }   
-        else if (loc == -1)
+        if (patrouille)
         {
-            acc = 1;
-            wait = true;
-            animator.SetFloat("Speed", 0);
-            audio.enabled = false;
-            yield return new WaitForSeconds(3);
-            wait = false;
+            if (loc == waypoint.transform.childCount)
+            {
+                acc = -1;
+                wait = true;
+                animator.SetFloat("Speed", 0);
+                audio.enabled = false;
+                yield return new WaitForSeconds(3);
+                wait = false;
+            }
+            else if (loc == -1)
+            {
+                acc = 1;
+                wait = true;
+                animator.SetFloat("Speed", 0);
+                audio.enabled = false;
+                yield return new WaitForSeconds(3);
+                wait = false;
 
-        }    
+            }
+            else
+            {
+                audio.enabled = true;
+                animator.SetFloat("Speed", 6);
+                nav.SetDestination(waypoint.transform.GetChild(loc).position);
+            }
+        }
         else
         {
+
+
+            loc = Random.Range(0, waypoint.transform.childCount);
             audio.enabled = true;
-            animator.SetFloat("Speed", 6);            
+            animator.SetFloat("Speed", 6);
             nav.SetDestination(waypoint.transform.GetChild(loc).position);
         }
+        
         
     }
 
