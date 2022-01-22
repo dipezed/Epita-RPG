@@ -46,10 +46,10 @@ public class Monster_IA : MonoBehaviour
         if (!attaquer)
         {
             int locY = Random.Range(0, waypoint.transform.childCount ); // 11 et 16 sont les tailles des games objects 
-            int locX = Random.Range(0, waypoint.transform.GetChild(locY).childCount );
+            
             
             animator.SetFloat("Speed", 8);
-            Transform target = waypoint.transform.GetChild(locY).GetChild(locX);
+            Transform target = waypoint.transform.GetChild(locY);
             nav.SetDestination(target.position);
         }
         
